@@ -10,6 +10,13 @@ function getStimulusSet() {
     let setIndex = null;
     let visitOrWeekValue = null;
 
+    if (
+        (visit === null && week === null) ||
+        (typeof visit === "undefined" && typeof week === "undefined")
+    ) {
+        setIndex = 0;
+    }
+
     // Check if visit is defined and valid
     if (typeof visit !== "undefined" && visit !== null) {
         visitOrWeekValue = parseInt(visit);
