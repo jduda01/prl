@@ -12,8 +12,8 @@ const debug = false;
 const enableTouch = true;
 
 // Experiment Version
-// Options: "deck", "avatar", "sabotage", "gain", "loss"
-const version = "deck";
+// Options: "deck", "avatar", "sabotage", "gain", "loss", "animal"
+const version = "animal";
 
 const counterbalance = false;
 
@@ -27,9 +27,9 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-const difficulty = "easy-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
+const difficulty = "hard-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
 const trials = debug ? 1 : 40;
-const blocks = 4;
+const blocks = 2;
 const totalTrials = trials * blocks;
 
 // Point Settings

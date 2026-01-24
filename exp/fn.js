@@ -44,32 +44,32 @@ function businessLogic() {
         strike = 0;
     }
 
-    // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
-    if (currentProbability[response - 1] === Math.max(...currentProbability)) {
-        streak++;
-        if (streak >= maxStreaks) {
-            //let highestProbabilityIndex;
-            do {
-                highestProbabilityIndex = currentProbability.indexOf(
-                    Math.max(...currentProbability)
-                );
-                currentProbability = shuffleArray(currentProbability);
-            } while (
-                currentProbability.indexOf(Math.max(...currentProbability)) ===
-                highestProbabilityIndex
-            );
+    // // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
+    // if (currentProbability[response - 1] === Math.max(...currentProbability)) {
+    //     streak++;
+    //     if (streak >= maxStreaks) {
+    //         //let highestProbabilityIndex;
+    //         do {
+    //             highestProbabilityIndex = currentProbability.indexOf(
+    //                 Math.max(...currentProbability)
+    //             );
+    //             currentProbability = shuffleArray(currentProbability);
+    //         } while (
+    //             currentProbability.indexOf(Math.max(...currentProbability)) ===
+    //             highestProbabilityIndex
+    //         );
 
-            streak = 0;
-            strike = 0;
-        }
-    } else {
-        if (strike < maxStrikes) {
-            strike++;
-        } else {
-            streak = 0;
-            strike = 0;
-        }
-    }
+    //         streak = 0;
+    //         strike = 0;
+    //     }
+    // } else {
+    //     if (strike < maxStrikes) {
+    //         strike++;
+    //     } else {
+    //         streak = 0;
+    //         strike = 0;
+    //     }
+    // }
 
     // logic to sample deck with respective reward probability
     let observedOutcome;
