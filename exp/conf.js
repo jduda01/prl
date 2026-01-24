@@ -88,6 +88,10 @@ const consentLink =
 const urlConfig = {
     // redirect only
     default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bErtyAFIwnwDhWu",
+    animal: {
+        0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq",// questionnaires
+    },
+    
     // auto-counterbalance
     gain: {
         0: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
