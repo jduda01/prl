@@ -140,7 +140,7 @@ function feedbackLogic(data) {
     data.difficulty = difficulty;
     data.stimuliSet = stimuliSet;
     data.max_strikes = maxStrikes;
-    data.max_streaks = maxStreaks;
+    //data.max_streaks = maxStreaks;
     data.index = trialIterator;
     data.first_half_probabilities = phaseProbabilities[0];
     data.second_half_probabilities = phaseProbabilities[1];
