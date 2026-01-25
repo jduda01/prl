@@ -175,7 +175,6 @@ let stimArrayAvatar = [];
 let stimArrayLoss = [];
 let stimArrayGain = [];
 let stimArraySabotage = [];
-let stimArrayAnimal = [];
 
 // Deck version - all sets use same file names
 stimArrayDeck = [
