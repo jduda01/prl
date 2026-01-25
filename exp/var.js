@@ -78,7 +78,7 @@ function getStimulusSet() {
     }
 
     // Available stimulus sets (0-7)
-    const availableSets = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
+    const availableSets = ["0", "1", "2", "3", "4", "5", "6", "7"];
 
     // If no valid visit/week was found, or if the index is out of bounds
     if (setIndex === null || setIndex >= availableSets.length) {
@@ -133,7 +133,7 @@ function getStimulusSet() {
                 ">
                     <h2 style="color: #ff0000; margin-top: 0;">Stimulus Set Not Found</h2>
                     <p style="font-size: 16px; margin: 20px 0;">${errorMessage}</p>
-                    <p style="margin: 15px 0;">Only sets 0-8 are available for this experiment.</p>
+                    <p style="margin: 15px 0;">Only sets 0-7 are available for this experiment.</p>
                     <p style="margin: 15px 0;"><strong>Available visits:</strong> ${
                         intake.visits ? intake.visits.join(", ") : "None"
                     }</p>
@@ -185,7 +185,7 @@ stimArrayDeck = [
 
 // Avatar version - each set has different file names
 const avatarFiles = {
-    0: ["black.jpg", "blu.jpg", "red.jpg"], // updated for consistency with other versions
+    0: ["black.png", "blue.png", "red.png"],
     1: ["green.png", "orange.png", "purple.png"],
     2: ["darkred.png", "darkteal.png", "orange.png"],
     3: ["brown.png", "lavender.png", "lightblue.png"],
@@ -193,16 +193,15 @@ const avatarFiles = {
     5: ["darkblue.png", "lightturquoise.png", "rose.png"],
     6: ["lavender.png", "red.png", "turquoise.png"],
     7: ["gray.png", "maroon.png", "pinkorange.png"],
-    8: ["black.jpg", "blu.jpg", "red.jpg"], // updated for consistency with other versions
 };
 
 stimArrayAvatar = avatarFiles[currentStimulusSet].map(
     (file) => `stim/avatar/${currentStimulusSet}/${file}`
 );
 
-// Loss version - note set 0 is animals; 8 has "blu.jpg" instead of "blue.jpg"
+// Loss version - note set 0 has "blu.jpg" instead of "blue.jpg"
 const lossFiles = {
-    0: ["black.jpg", "blu.jpg", "red.jpg"], // corresponds to animals 
+    0: ["black.jpg", "blu.jpg", "red.jpg"],
     1: ["black.jpg", "blue.jpg", "red.jpg"],
     2: ["black.jpg", "blue.jpg", "red.jpg"],
     3: ["black.jpg", "blue.jpg", "red.jpg"],
@@ -210,16 +209,15 @@ const lossFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
-    8: ["black.jpg", "blu.jpg", "red.jpg"], // added an 8th stimulus set to house the card version
 };
 
 stimArrayLoss = lossFiles[currentStimulusSet].map(
     (file) => `stim/loss/${currentStimulusSet}/${file}`
 );
 
-// Gain version - note set 0 is animals; 8 has "blu.jpg" instead of "blue.jpg"
+// Gain version - note set 0 has "blu.jpg" instead of "blue.jpg"
 const gainFiles = {
-    0: ["black.jpg", "blu.jpg", "red.jpg"], // corresponds to animals
+    0: ["black.jpg", "blu.jpg", "red.jpg"],
     1: ["black.jpg", "blue.jpg", "red.jpg"],
     2: ["black.jpg", "blue.jpg", "red.jpg"],
     3: ["black.jpg", "blue.jpg", "red.jpg"],
@@ -227,7 +225,6 @@ const gainFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
-    8: ["black.jpg", "blu.jpg", "red.jpg"], // added an 8th stimulus set to house the card version
 };
 
 stimArrayGain = gainFiles[currentStimulusSet].map(
