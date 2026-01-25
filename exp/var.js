@@ -199,9 +199,9 @@ stimArrayAvatar = avatarFiles[currentStimulusSet].map(
     (file) => `stim/avatar/${currentStimulusSet}/${file}`
 );
 
-// Loss version - note set 0 has "blu.jpg" instead of "blue.jpg"
+// Loss version - note set 0 is animals; 8 has "blu.jpg" instead of "blue.jpg"
 const lossFiles = {
-    0: ["black.jpg", "blu.jpg", "red.jpg"],
+    0: ["cat.jpg", "dog.jpg", "rabbit.jpg"],
     1: ["black.jpg", "blue.jpg", "red.jpg"],
     2: ["black.jpg", "blue.jpg", "red.jpg"],
     3: ["black.jpg", "blue.jpg", "red.jpg"],
@@ -209,15 +209,16 @@ const lossFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
+    8: ["black.jpg", "blu.jpg", "red.jpg"],
 };
 
 stimArrayLoss = lossFiles[currentStimulusSet].map(
     (file) => `stim/loss/${currentStimulusSet}/${file}`
 );
 
-// Gain version - note set 0 has "blu.jpg" instead of "blue.jpg"
+// Gain version - note set 0 is animals; 8 has "blu.jpg" instead of "blue.jpg"
 const gainFiles = {
-    0: ["black.jpg", "blu.jpg", "red.jpg"],
+    0: ["cat.jpg", "dog.jpg", "rabbit.jpg"],
     1: ["black.jpg", "blue.jpg", "red.jpg"],
     2: ["black.jpg", "blue.jpg", "red.jpg"],
     3: ["black.jpg", "blue.jpg", "red.jpg"],
@@ -225,6 +226,7 @@ const gainFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
+    8: ["black.jpg", "blu.jpg", "red.jpg"],
 };
 
 stimArrayGain = gainFiles[currentStimulusSet].map(
