@@ -236,13 +236,6 @@ stimArraySabotage = stimArrayAvatar.map((path) =>
     path.replace("/avatar/", "/sabotage/")
 );
 
-// Animal version 
-stimArrayAnimal = [
-    `stim/animal/${currentStimulusSet}/cat.jpg`,
-    `stim/animal/${currentStimulusSet}/dog.jpg`,
-    `stim/animal/${currentStimulusSet}/rabbit.jpg`,
-];
-
 console.log("Generated stimulus arrays for set:", currentStimulusSet);
 
 // Create win as global variable so we use it in feedback and printing csv
@@ -272,9 +265,6 @@ switch (version) {
     case "gain":
         stim = shuffleArray(stimArrayGain);
         break;
-    case "animal":
-         stim = shuffleArray(stimArrayAnimal);
-         break;
     default:
         stim = shuffleArray(stimArrayDeck);
         break;
@@ -297,7 +287,7 @@ let streak = 0;
 let strike = 0;
 
 // How many continuous correct choices to the best deck until changing best deck location
-// const maxStreaks = 9;
+const maxStreaks = 9;
 const maxStrikes = 2;
 
 // Switch easy-easy, easy-hard, hard-easy, hard-hard

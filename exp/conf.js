@@ -12,8 +12,8 @@ const debug = false;
 const enableTouch = true;
 
 // Experiment Version
-// Options: "deck", "avatar", "sabotage", "gain", "loss", "animal"
-const version = "animal";
+// Options: "deck", "avatar", "sabotage", "gain", "loss"
+const version = "deck";
 
 const counterbalance = false;
 
@@ -27,9 +27,9 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-const difficulty = "hard-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
+const difficulty = "easy-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
 const trials = debug ? 1 : 40;
-const blocks = 2;
+const blocks = 4;
 const totalTrials = trials * blocks;
 
 // Point Settings
@@ -88,10 +88,6 @@ const consentLink =
 const urlConfig = {
     // redirect only
     default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bErtyAFIwnwDhWu",
-    animal: {
-        0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq",// questionnaires
-    },
-    
     // auto-counterbalance
     gain: {
         0: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
