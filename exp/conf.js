@@ -13,7 +13,7 @@ const enableTouch = true;
 
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
-const version = "gain";
+const version = "deck";
 
 const counterbalance = false;
 
