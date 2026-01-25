@@ -14,7 +14,7 @@ function getStimulusSet() {
         (visit === null && week === null) ||
         (typeof visit === "undefined" && typeof week === "undefined")
     ) {
-        setIndex = 0;
+        setIndex = 8;
     }
 
     // Check if visit is defined and valid
