@@ -78,7 +78,7 @@ function getStimulusSet() {
     }
 
     // Available stimulus sets (0-7)
-    const availableSets = ["0", "1", "2", "3", "4", "5", "6", "7"];
+    const availableSets = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
 
     // If no valid visit/week was found, or if the index is out of bounds
     if (setIndex === null || setIndex >= availableSets.length) {
@@ -133,7 +133,7 @@ function getStimulusSet() {
                 ">
                     <h2 style="color: #ff0000; margin-top: 0;">Stimulus Set Not Found</h2>
                     <p style="font-size: 16px; margin: 20px 0;">${errorMessage}</p>
-                    <p style="margin: 15px 0;">Only sets 0-7 are available for this experiment.</p>
+                    <p style="margin: 15px 0;">Only sets 0-8 are available for this experiment.</p>
                     <p style="margin: 15px 0;"><strong>Available visits:</strong> ${
                         intake.visits ? intake.visits.join(", ") : "None"
                     }</p>
