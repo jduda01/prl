@@ -24,13 +24,11 @@ const preload = {
 
 let timeline = [];
 
-// switch (enableTouch) {
-//     case false:
-//         $.getScript("exp/timeline-keyboard.js");
-//         break;
-//     case true:
-//         $.getScript("exp/timeline-touch.js");
-//         break;
-// }
-
-$.getScript("exp/timeline-keyboard.js"); // Ensures keyboard version used
+switch (enableTouch) {
+    case false:
+        $.getScript("exp/timeline-keyboard.js");
+        break;
+    case true:
+        $.getScript("exp/timeline-touch.js");
+        break;
+}

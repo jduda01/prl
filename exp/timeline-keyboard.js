@@ -4,7 +4,7 @@
 const welcome = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: instructions[0],
-    choices: "NO_KEYS", // changed from choice to choices 
+    choice: "NO_KEYS",
     on_load: toggleDebugMode,
 };
 
