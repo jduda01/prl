@@ -27,8 +27,8 @@ require_once './wrap/lib/ids.php';
   <!-- custom jsPsych Plugins -->
   <!-- custom jsPsychHtmlKeyboardResponse -->
   <script src="./wrap/plugins/plugin-html-keyboard-response.js"></script>
-  <script src="./wrap/plugins/plugin-html-touch-response.js"></script>
-  <script src="./wrap/plugins/plugin-survey-multi-choice-touch.js"></script>
+  <!-- <script src="./wrap/plugins/plugin-html-touch-response.js"></script> --> 
+  <!-- <script src="./wrap/plugins/plugin-survey-multi-choice-touch.js"></script> --> 
   <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.3"></script>
 
   <!-- general styling -->
