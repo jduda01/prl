@@ -185,7 +185,7 @@ stimArrayDeck = [
 
 // Avatar version - each set has different file names
 const avatarFiles = {
-    0: ["black.png", "blue.png", "red.png"],
+    0: ["cat.jpg", "dog.jpg", "rabbit.jpg"], // updated for consistency with other versions
     1: ["green.png", "orange.png", "purple.png"],
     2: ["darkred.png", "darkteal.png", "orange.png"],
     3: ["brown.png", "lavender.png", "lightblue.png"],
@@ -193,6 +193,7 @@ const avatarFiles = {
     5: ["darkblue.png", "lightturquoise.png", "rose.png"],
     6: ["lavender.png", "red.png", "turquoise.png"],
     7: ["gray.png", "maroon.png", "pinkorange.png"],
+    8: ["black.jpg", "blu.jpg", "red.jpg"], // updated for consistency with other versions
 };
 
 stimArrayAvatar = avatarFiles[currentStimulusSet].map(
