@@ -310,17 +310,21 @@ let strike = 0;
 // }
 
 // JD: instead of modulating noise for difficulty, we use volatility level 
-switch (difficulty){
-    case "stable-stable":
+switch (versionByModulus){
+    case 0: 
+        difficulty = "stable-stable";
         reversalRanges.push([15, 20], [15, 20]);
         break;
-    case "stable-volatile":
+    case 1:
+        difficulty = "stable-volatile";
         reversalRanges.push([15, 20], [30, 40]);
         break;
-    case "volatile-stable":
+    case 2:
+        difficulty = "volatile-stable";
         reversalRanges.push([30, 40], [15, 20]);
         break;
-    case "volatile-volatile":
+    case 3: 
+        difficulty = "volatile-volatile";
         reversalRanges.push([30, 40], [30, 40]);
         break;
 };

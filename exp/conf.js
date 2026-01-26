@@ -13,7 +13,25 @@ const enableTouch = false;
 
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
-const version = "gain";
+let version; // Version defined by modulus in var.js
+const modulus = 4; //JD: Pasted from redirect.js 
+const versionByModulus = counterbalanceParticipants(subjectId, modulus);
+
+// JD - when running both gain and loss, add 4 instances here with gain
+switch (versionByModulus){
+    case 0: // "stable-stable"
+        version = "loss";
+        break;
+    case 1: // "stable-volatile":
+        version = "loss";
+        break;
+    case 2: // "volatile-stable":
+        version = "loss";
+        break;
+    case 3: //"volatile-volatile":
+        version = "loss";
+        break;
+};
 
 const counterbalance = false;
 
@@ -27,7 +45,8 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-const difficulty = "stable-stable"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
+let difficulty; // difficulty now set in var.js switch function
+// const difficulty = "stable-stable"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
 const trials = debug ? 1 : 40;
 const blocks = 4; //JD: blocks as defined by original PRL (every 40 trials)
 const totalTrials = trials * blocks;
@@ -90,12 +109,15 @@ const urlConfig = {
     // redirect only
     default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bErtyAFIwnwDhWu",
     // auto-counterbalance
-    gain: {
-        0: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
-        1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
-    },
-    loss: {
-        0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
-        1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
-    },
-};
+    // When running both gain and loss, update the modulus to 8 in var and replace 0 with 0-3 and 1 with 4-7
+    // gain: { 
+    //     0: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+    //     1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
+    // },
+    // loss: {
+    //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
+    //     1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+    // },
+    gain: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq",
+    loss: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq"
+}
