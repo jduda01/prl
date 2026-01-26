@@ -283,8 +283,8 @@ let phaseProbabilities = [];
 let currentProbability;
 
 // Create variables with initial values for streak and strike
-// let streak = 0; // Jessie commented out 1/26/26
-// let strike = 0; // Jessie commented out 1/26/26
+let streak = 0; 
+let strike = 0; 
 
 // Jessie commented out 1/26/26
 // // How many continuous correct choices to the best deck until changing best deck location
