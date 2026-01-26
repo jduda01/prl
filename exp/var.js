@@ -1,6 +1,7 @@
 "use strict";
 
 let trialIterator = 0; // first trial will increment from 0 to 1
+let nextReversalAt = null; // JD added 1/25/26 to track reversals
 
 /**
  * Function to determine stimulus set based on visit/week index

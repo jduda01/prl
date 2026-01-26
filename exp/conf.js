@@ -29,8 +29,13 @@ const theme = "light";
 // Trial Settings
 const difficulty = "easy-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
 const trials = debug ? 1 : 40;
-const blocks = 4;
+const blocks = 4; //JD: blocks as defined by original PRL (every 40 trials)
 const totalTrials = trials * blocks;
+const reversalRanges = {
+    1: [15, 20],  // block 1: 15–20 trials - JD added 1/25/26
+    2: [30, 40],  // block 2: 30–40 trials - JD added 1/25/26
+};
+const trialsPerLargeBlock = 2 * trials; // set blocks to twice as large as the 40-trial blocks JD added 1/25/26
 
 // Point Settings
 let winPoints = 100;

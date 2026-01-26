@@ -6,13 +6,23 @@ function businessLogic() {
     //console.log(response);
     let highestProbabilityIndex;
 
-    // performance-independent reversal every 40 trials
-    if (
-        trialIterator === 1 * (totalTrials / blocks) ||
-        trialIterator === 3 * (totalTrials / blocks)
-    ) {
-        //let highestProbabilityIndex;
+    // JD added - reversals per block 1 and 2 - 1/25/26
+    const currentBlock = Math.ceil(trialIterator / trialsPerLargeBlock);
 
+    // initialize next reversal at start of block
+    if (
+        trialIterator === 1 ||
+        trialIterator === (currentBlock - 1) * trialsPerLargeBlock + 1
+    ) {
+        const [minR, maxR] = reversalRanges[currentBlock];
+        nextReversalAt =
+            trialIterator +
+            Math.floor(Math.random() * (maxR - minR + 1)) +
+            minR;
+    }
+
+    // trigger reversal
+    if (trialIterator === nextReversalAt) {
         do {
             highestProbabilityIndex = currentProbability.indexOf(
                 Math.max(...currentProbability)
@@ -22,10 +32,37 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-// Jessie commented out 1/26/26
-        // streak = 0; 
-        // strike = 0;
+
+        // schedule next reversal in same block
+        const [minR, maxR] = reversalRanges[currentBlock];
+        nextReversalAt =
+            trialIterator +
+            Math.floor(Math.random() * (maxR - minR + 1)) +
+            minR;
     }
+
+    // End of JD added - reversals per block 1 and 2 - 1/25/26
+
+//     // performance-independent reversal every 40 trials
+//     if (
+//         trialIterator === 1 * (totalTrials / blocks) ||
+//         trialIterator === 3 * (totalTrials / blocks)
+//     ) {
+//         //let highestProbabilityIndex;
+
+//         do {
+//             highestProbabilityIndex = currentProbability.indexOf(
+//                 Math.max(...currentProbability)
+//             );
+//             currentProbability = shuffleArray(currentProbability);
+//         } while (
+//             currentProbability.indexOf(Math.max(...currentProbability)) ===
+//             highestProbabilityIndex
+//         );
+// // Jessie commented out 1/25/26
+//         // streak = 0; 
+//         // strike = 0;
+//     }
 
     // contingency shift
     if (trialIterator === 2 * (totalTrials / blocks)) {
@@ -39,12 +76,13 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-// Jessie commented out 1/26/26
+// Jessie commented out 1/25/26
         // streak = 0;
         // strike = 0;
+        nextReversalAt = null; // JD added 1/25/26 to ensure no double reversal
     }
 
-// Jessie commented out 1/26/26
+// Jessie commented out 1/25/26
     // // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
     // if (currentProbability[response - 1] === Math.max(...currentProbability)) {
     //     streak++;
