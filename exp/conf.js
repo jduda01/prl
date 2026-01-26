@@ -50,7 +50,8 @@ let difficulty; // difficulty now set in var.js switch function
 const trials = debug ? 1 : 40;
 const blocks = 4; //JD: blocks as defined by original PRL (every 40 trials)
 const totalTrials = trials * blocks;
-const trialsPerLargeBlock = 2 * trials; // set blocks to twice as large as the 40-trial blocks JD added 1/25/26
+const trialsPerLargeBlock = 2 * trials; // JD added 1/25/26 to set blocks to twice as large as the traditional 40-trial blocks 
+const currentStimulusSet = 8; // JD added 1/26/26 to make stimulus set a modifiable constant
 
 // Point Settings
 let winPoints = 100;
