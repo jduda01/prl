@@ -283,12 +283,13 @@ let phaseProbabilities = [];
 let currentProbability;
 
 // Create variables with initial values for streak and strike
-let streak = 0;
-let strike = 0;
+// let streak = 0; // Jessie commented out 1/26/26
+// let strike = 0; // Jessie commented out 1/26/26
 
-// How many continuous correct choices to the best deck until changing best deck location
-const maxStreaks = 9;
-const maxStrikes = 2;
+// Jessie commented out 1/26/26
+// // How many continuous correct choices to the best deck until changing best deck location
+// const maxStreaks = 9;
+// const maxStrikes = 2;
 
 // Switch easy-easy, easy-hard, hard-easy, hard-hard
 switch (difficulty) {

@@ -22,9 +22,9 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-
-        streak = 0;
-        strike = 0;
+// Jessie commented out 1/26/26
+        // streak = 0; 
+        // strike = 0;
     }
 
     // contingency shift
@@ -39,42 +39,43 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-
-        streak = 0;
-        strike = 0;
+// Jessie commented out 1/26/26
+        // streak = 0;
+        // strike = 0;
     }
 
-    // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
-    if (currentProbability[response - 1] === Math.max(...currentProbability)) {
-        streak++;
-        if (streak >= maxStreaks) {
-            //let highestProbabilityIndex;
-            do {
-                highestProbabilityIndex = currentProbability.indexOf(
-                    Math.max(...currentProbability)
-                );
-                currentProbability = shuffleArray(currentProbability);
-            } while (
-                currentProbability.indexOf(Math.max(...currentProbability)) ===
-                highestProbabilityIndex
-            );
+// Jessie commented out 1/26/26
+    // // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
+    // if (currentProbability[response - 1] === Math.max(...currentProbability)) {
+    //     streak++;
+    //     if (streak >= maxStreaks) {
+    //         //let highestProbabilityIndex;
+    //         do {
+    //             highestProbabilityIndex = currentProbability.indexOf(
+    //                 Math.max(...currentProbability)
+    //             );
+    //             currentProbability = shuffleArray(currentProbability);
+    //         } while (
+    //             currentProbability.indexOf(Math.max(...currentProbability)) ===
+    //             highestProbabilityIndex
+    //         );
 
-            streak = 0;
-            strike = 0;
-        }
-    } else {
-        if (strike < maxStrikes) {
-            strike++;
-        } else {
-            streak = 0;
-            strike = 0;
-        }
-    }
+    //         streak = 0;
+    //         strike = 0;
+    //     }
+    // } else {
+    //     if (strike < maxStrikes) {
+    //         strike++;
+    //     } else {
+    //         streak = 0;
+    //         strike = 0;
+    //     }
+    // }
 
     // logic to sample deck with respective reward probability
     let observedOutcome;
 
-    //console.log(currentProbability);
+    console.log(currentProbability);
 
     // logic to sample deck with respective reward probability
     // 'response - 1' will give position of probability value within currentProbability vector (index)
@@ -139,14 +140,14 @@ function feedbackLogic(data) {
     // ]);
     data.difficulty = difficulty;
     data.stimuliSet = stimuliSet;
-    data.max_strikes = maxStrikes;
-    data.max_streaks = maxStreaks;
+    // data.max_strikes = maxStrikes; // Jessie commented out 1/26/26
+    // data.max_streaks = maxStreaks; // Jessie commented out 1/26/26
     data.index = trialIterator;
     data.first_half_probabilities = phaseProbabilities[0];
     data.second_half_probabilities = phaseProbabilities[1];
     data.deck_probabilities = `[${String(currentProbability)}]`;
-    data.streak = streak;
-    data.strike = strike;
+    // data.streak = streak; // Jessie commented out 1/26/26
+    // data.strike = strike; // Jessie commented out 1/26/26
     data.response = response;
     data.rt = rt;
     data.key_press =
