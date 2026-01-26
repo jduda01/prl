@@ -195,7 +195,7 @@ const avatarFiles = {
     5: ["darkblue.png", "lightturquoise.png", "rose.png"],
     6: ["lavender.png", "red.png", "turquoise.png"],
     7: ["gray.png", "maroon.png", "pinkorange.png"],
-    8: ["cat.jpg", "dog.jpg", ".jpg"],
+    8: ["cat.jpg", "dog.jpg", "rabbit.jpg"],
 };
 
 stimArrayAvatar = avatarFiles[currentStimulusSet].map(
@@ -212,7 +212,7 @@ const lossFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
-    8: ["cat.jpg", "dog.jpg", ".jpg"],
+    8: ["cat.jpg", "dog.jpg", "rabbit.jpg"],
 };
 
 stimArrayLoss = lossFiles[currentStimulusSet].map(
@@ -229,7 +229,7 @@ const gainFiles = {
     5: ["black.jpg", "blue.jpg", "red.jpg"],
     6: ["black.jpg", "blue.jpg", "red.jpg"],
     7: ["black.jpg", "blue.jpg", "red.jpg"],
-    8: ["cat.jpg", "dog.jpg", ".jpg"],
+    8: ["cat.jpg", "dog.jpg", "rabbit.jpg"],
 };
 
 stimArrayGain = gainFiles[currentStimulusSet].map(
