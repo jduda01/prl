@@ -14,11 +14,12 @@ function businessLogic() {
         trialIterator === 1 ||
         trialIterator === (currentBlock - 1) * trialsPerLargeBlock + 1
     ) {
-        const [minR, maxR] = reversalRanges[currentBlock];
+        const [minReversals, maxReversals] = reversalRanges[currentBlock];
         nextReversalAt =
             trialIterator +
-            Math.floor(Math.random() * (maxR - minR + 1)) +
-            minR;
+            Math.floor(Math.random() * (maxReversals - minReversals + 1)) +
+            minReversals;
+            console.log("Next reversal is" + nextReversalAt)
     }
 
     // trigger reversal
@@ -32,14 +33,17 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
+        console.log("Reversal triggered")
 
         // schedule next reversal in same block
-        const [minR, maxR] = reversalRanges[currentBlock];
+        const [minReversals, maxReversals] = reversalRanges[currentBlock];
         nextReversalAt =
             trialIterator +
-            Math.floor(Math.random() * (maxR - minR + 1)) +
-            minR;
+            Math.floor(Math.random() * (maxReversals - minReversals + 1)) +
+            minReversals;
+            console.log("Next reversal is" + nextReversalAt)
     }
+
 
     // End of JD added - reversals per block 1 and 2 - 1/25/26
 
@@ -64,23 +68,24 @@ function businessLogic() {
 //         // strike = 0;
 //     }
 
-    // contingency shift
-    if (trialIterator === 2 * (totalTrials / blocks)) {
-        //let highestProbabilityIndex;
-        do {
-            highestProbabilityIndex = currentProbability.indexOf(
-                Math.max(...currentProbability)
-            );
-            currentProbability = shuffleArray([...phaseProbabilities[1]]);
-        } while (
-            currentProbability.indexOf(Math.max(...currentProbability)) ===
-            highestProbabilityIndex
-        );
-// Jessie commented out 1/25/26
-        // streak = 0;
-        // strike = 0;
-        nextReversalAt = null; // JD added 1/25/26 to ensure no double reversal
-    }
+// JD commented out on 1/26/26 because replacing with reversalRanges
+//     // contingency shift
+//     if (trialIterator === 2 * (totalTrials / blocks)) {
+//         //let highestProbabilityIndex;
+//         do {
+//             highestProbabilityIndex = currentProbability.indexOf(
+//                 Math.max(...currentProbability)
+//             );
+//             currentProbability = shuffleArray([...phaseProbabilities[1]]);
+//         } while (
+//             currentProbability.indexOf(Math.max(...currentProbability)) ===
+//             highestProbabilityIndex
+//         );
+// // Jessie commented out 1/25/26
+//         // streak = 0;
+//         // strike = 0;
+//         nextReversalAt = null; // JD added 1/25/26 to ensure no double reversal
+//     }
 
 // Jessie commented out 1/25/26
     // // performance-dependent reversal every nine out of 10 consecutive selection of 'high' probability deck
@@ -181,8 +186,8 @@ function feedbackLogic(data) {
     // data.max_strikes = maxStrikes; // Jessie commented out 1/26/26
     // data.max_streaks = maxStreaks; // Jessie commented out 1/26/26
     data.index = trialIterator;
-    data.first_half_probabilities = phaseProbabilities[0];
-    data.second_half_probabilities = phaseProbabilities[1];
+    // data.first_half_probabilities = phaseProbabilities[0]; // Jessie commented out 1/26/26, replace with more meaningful output
+    // data.second_half_probabilities = phaseProbabilities[1]; // Jessie commented out 1/26/26, replace with more meaningful output
     data.deck_probabilities = `[${String(currentProbability)}]`;
     // data.streak = streak; // Jessie commented out 1/26/26
     // data.strike = strike; // Jessie commented out 1/26/26

@@ -6,14 +6,14 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = false;
+const debug = true;
 
 // enable touch screen compatibility and adjusts instruction for touch
-const enableTouch = true;
+const enableTouch = false;
 
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
-const version = "deck";
+const version = "gain";
 
 const counterbalance = false;
 
@@ -27,14 +27,10 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-const difficulty = "easy-hard"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
+const difficulty = "stable-stable"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
 const trials = debug ? 1 : 40;
 const blocks = 4; //JD: blocks as defined by original PRL (every 40 trials)
 const totalTrials = trials * blocks;
-const reversalRanges = {
-    1: [15, 20],  // block 1: 15–20 trials - JD added 1/25/26
-    2: [30, 40],  // block 2: 30–40 trials - JD added 1/25/26
-};
 const trialsPerLargeBlock = 2 * trials; // set blocks to twice as large as the 40-trial blocks JD added 1/25/26
 
 // Point Settings
@@ -100,6 +96,6 @@ const urlConfig = {
     },
     loss: {
         0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
-        1: "https://belieflab.yale.edu/arclab/prlGain/",
+        1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
     },
 };

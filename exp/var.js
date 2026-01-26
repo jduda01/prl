@@ -280,8 +280,9 @@ const outcome = [
 console.log("Final stim array for version", version, ":", stim);
 
 // PRL-specific variables
-let phaseProbabilities = [];
-let currentProbability;
+// let phaseProbabilities = []; // JD removed 1/26/26 - replaced with reversalRanges
+let reversalRanges = [];
+let currentProbability = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
 
 // Create variables with initial values for streak and strike
 let streak = 0; 
@@ -292,21 +293,38 @@ let strike = 0;
 // const maxStreaks = 9;
 // const maxStrikes = 2;
 
-// Switch easy-easy, easy-hard, hard-easy, hard-hard
-switch (difficulty) {
-    case "easy-easy":
-        phaseProbabilities.push([0.9, 0.5, 0.1], [0.9, 0.5, 0.1]);
-        break;
-    case "easy-hard":
-        phaseProbabilities.push([0.9, 0.5, 0.1], [0.8, 0.4, 0.2]);
-        break;
-    case "hard-easy":
-        phaseProbabilities.push([0.8, 0.4, 0.2], [0.9, 0.5, 0.1]);
-        break;
-    case "hard-hard":
-        phaseProbabilities.push([0.8, 0.4, 0.2], [0.8, 0.4, 0.2]);
-        break;
-}
+// Switch easy-easy, easy-hard, hard-easy, hard-hard Jessie commented out 1/26/26
+// switch (difficulty) {
+//     case "easy-easy":
+//         phaseProbabilities.push([0.9, 0.5, 0.1], [0.9, 0.5, 0.1]);
+//         break;
+//     case "easy-hard":
+//         phaseProbabilities.push([0.9, 0.5, 0.1], [0.8, 0.4, 0.2]);
+//         break;
+//     case "hard-easy":
+//         phaseProbabilities.push([0.8, 0.4, 0.2], [0.9, 0.5, 0.1]);
+//         break;
+//     case "hard-hard":
+//         phaseProbabilities.push([0.8, 0.4, 0.2], [0.8, 0.4, 0.2]);
+//         break;
+// }
 
-// Randomize initial reward probability set at start of experiment
-currentProbability = shuffleArray([...phaseProbabilities[0]]);
+// JD: instead of modulating noise for difficulty, we use volatility level 
+switch (difficulty){
+    case "stable-stable":
+        reversalRanges.push([15, 20], [15, 20]);
+        break;
+    case "stable-volatile":
+        reversalRanges.push([15, 20], [30, 40]);
+        break;
+    case "volatile-stable":
+        reversalRanges.push([30, 40], [15, 20]);
+        break;
+    case "volatile-volatile":
+        reversalRanges.push([30, 40], [30, 40]);
+        break;
+};
+
+// JD commented out because no contingency shift
+// // Randomize initial reward probability set at start of experiment
+// currentProbability = shuffleArray([...phaseProbabilities[0]]);
