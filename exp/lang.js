@@ -109,8 +109,8 @@ switch (version) {
         <p>This card can either win you an additional 100 points ('winning' cards) or take away 50 points ('losing' cards).</p>
         <p>Below you can see what those cards look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
-        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'> // JD replaced all "squared_win" with "squared win" to match specs of animal stims - 1/26/26
         </div>
         <p><strong>Note that each deck contains both winning and losing cards, but in different amounts.</strong></p>
         <p>Your job is to figure out which deck is the best deck, so that you can get as many points as possible.</p>
@@ -122,8 +122,8 @@ switch (version) {
         <p>This card can either win you an additional 100 points ('winning' cards) or take away 50 points ('losing' cards).</p>
         <p>Below you can see what those cards look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
-        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
         <p><strong>Note that each deck contains both winning and losing cards, but in different amounts.</strong></p>
         <p>Your job is to figure out which deck is the best deck, so that you can get as many points as possible.</p>
@@ -225,8 +225,8 @@ switch (version) {
         <p>After you select a partner, you will see if your project succeeds (+100 points) or fails (-50 points).</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
-        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
         <p><strong>Note that each partner is different. Your job is to find the best partner, and to get as many points as possible.</p>
         <p>However, no partner is perfect. Anyone can have a bad day.</strong></p>
@@ -313,8 +313,8 @@ switch (version) {
         <p>After you select a co-worker, you will see if they helped you earn points with the boss (+100 points) or lose points with the boss (-50 points).</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-            <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
-            <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+            <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+            <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
         <p><strong>Note that each co-worker is different. Your job is to find the best co-worker, and to get as many points as possible.</p>
         <p>However, no co-worker is perfect. Anyone can have a bad day.</strong></p>
@@ -360,12 +360,12 @@ switch (version) {
     case "loss":
         var english0 = `
         <div style="background-color:red; padding:10px ">
-        <p style="color:white">Welcome to this part of the experiment!</p>
+        <p style="color:white">Welcome to the experiment!</p>
         <p style="color:white">Press any key to begin.</p>
         </div>`;
 
         var english1 = `
-        <p>You will now play several rounds of a card game.</p> 
+        <p>You will now play several rounds of a game.</p> 
         <p>You will be given a starting pool of ${lossStartingPoints} points and your goal is to avoid losing points during the rounds.</p>
         <p>Please press the zero (0) key to continue.</p>`;
         console.log(version);
@@ -374,16 +374,18 @@ switch (version) {
         <p>Your points will be converted to a final bonus of $1 per every ${pointsPerDollar} points, so please do your best. </p> 
         <p>You can earn a maximum bonus of $${
             lossStartingPoints / pointsPerDollar
-        } at the end of these rounds and $${
-            (lossStartingPoints * 2) / pointsPerDollar
-        } total across the two blocks.</p> 
+        } at the end of these rounds.</p> 
         <p>Please press the zero (0) key to continue.</p>`;
+        // JD removed the below from line 377 - add back when running both gain and loss.
+        // "and $${
+        //     (lossStartingPoints * 2) / pointsPerDollar
+        // } total across the two blocks"
 
         var english3 = `
-        <p>The card game is very simple: on each turn you will choose one of the three decks below, so you can draw a card from it.</p>
-        <p>You can choose a deck using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> deck respectively.</p>
-        <p>Let's practice choosing decks.</p>
-        <p>Please choose the <strong>left</strong> deck by pressing the <strong>1</strong> key.
+        <p>In this game, you will meet three animals. On each turn you will choose one of them.</p>
+        <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice choosing an animal.</p>
+        <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -391,7 +393,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now choose the <strong>middle</strong> deck by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now choose the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -399,7 +401,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now choose the <strong>right</strong> deck by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now choose the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -407,25 +409,25 @@ switch (version) {
         </div>`;
 
         var english6 = `
-        <p>Good job! You have successfully practiced selecting decks.</p>
-        <p>After you select a deck, the top card will turn over.</p>
-        <p>This card can either cause you to lose ${losePoints} points or ${winPoints} points.</p>
-        <p>Below you can see what those cards look like:</p>
+        <p>Good job! You have successfully practiced selecting animals.</p>
+        <p>Some of the animals are not as nice as others.</p>
+        <p>An animal can either take away ${losePoints} points or ${winPoints} points.</p>
+        <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
-        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
         </div>
-        <p><strong>Note that each deck contains both losing and non-losing cards, but in different amounts.</strong></p>
-        <p>Your job is to figure out which deck is the best deck, so that you can keep as many points as possible.</p>
+        <p><strong>Note that each animal can give you either a loss or no loss.</strong></p>
+        <p>Your job is to figure out which animal is the nicest animal, so that you can keep as many points as possible.</p>
         Please press the zero (0) key to continue.`;
 
         var english7 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best deck will change!</b></p>
-        <p>If you think the best deck has changed from what it was before, then try to find out the new best deck.</p>
+        <p><b>There may be times when the nicest animal will change!</b></p>
+        <p>If you think the nicest animal has changed from what it was before, then try to find out the new nicest animal.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the nicest animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
@@ -434,9 +436,9 @@ switch (version) {
         <p>The next portion of the task will take approximately another 10 minutes, with longer individual rounds than the practice.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 
-        var english9 = `Did you feel as though the decks were tricking you?`;
+        // var english9 = `Did you feel as though the decks were tricking you?`;
 
-        var english10 = null;
+        // var english10 = null;
 
         // TASK 2: Please add remaining french and german language for the loss version
         var french1 = `
@@ -465,8 +467,8 @@ switch (version) {
 
     case "gain":
         var english0 = `
-        <div style="background-color:green; padding:10px ">
-        <p style="color:white">Welcome to this part of the experiment!</p>
+        <div style="background-color:red; padding:10px ">
+        <p style="color:white">Welcome to the experiment!</p>
         <p style="color:white">Press any key to begin.</p>
         </div>`;
 
@@ -480,16 +482,18 @@ switch (version) {
         <p>Your points will be converted to a final bonus of $1 per every ${pointsPerDollar} points, so please do your best. </p> 
         <p>You can earn a maximum bonus of $${
             (winPoints * blocks * trials) / pointsPerDollar
-        } at the end of these rounds and $${
-            (winPoints * blocks * trials * 2) / pointsPerDollar
-        } across the two blocks. </p> 
+        } at the end of these rounds. </p> 
         <p>Please press the zero (0) key to continue.</p>`;
+        // JD removed the below from line ~485; add back when administering both gain and loss
+        // and $${
+        //     (winPoints * blocks * trials * 2) / pointsPerDollar
+        // } across the two blocks
 
         var english3 = `
-        <p>The card game is very simple: on each turn you will choose one of the three decks below, so you can draw a card from it.</p>
-        <p>You can choose a deck using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> deck respectively.</p>
-        <p>Let's practice choosing decks.</p>
-        <p>Please choose the <strong>left</strong> deck by pressing the <strong>1</strong> key.
+        <p>In this game, you will meet three animals. On each turn you will choose one of them.</p>
+        <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice choosing an animal.</p>
+        <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -497,7 +501,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now choose the <strong>middle</strong> deck by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now choose the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -505,7 +509,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now choose the <strong>right</strong> deck by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now choose the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -513,25 +517,25 @@ switch (version) {
         </div>`;
 
         var english6 = `
-        <p>Good job! You have successfully practiced selecting decks.</p>
-        <p>After you select a deck, the top card will turn over.</p>
-        <p>This card can either cause you to gain ${winPoints} points or ${losePoints} points.</p>
-        <p>Below you can see what those cards look like:</p>
+        <p>Good job! You have successfully practiced selecting animals.</p>
+        <p>Some of the animals are nicer than others.</p>
+        <p>An animal can either give you ${winPoints} points or ${losePoints} points.</p>
+        <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
-        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
-        <p><strong>Note that each deck contains both winning and non-winning cards, but in different amounts.</strong></p>
-        <p>Your job is to figure out which deck is the best deck, so that you can win as many points as possible.</p>
+        <p><strong>Note that each animal can give you either a reward or no reward.</strong></p>
+        <p>Your job is to figure out which animal is the nicest animal, so that you can gain as many points as possible.</p>
         Please press the zero (0) key to continue.`;
 
         var english7 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best deck will change!</b></p>
-        <p>If you think the best deck has changed from what it was before, then try to find out the new best deck.</p>
+        <p><b>There may be times when the nicest animal will change!</b></p>
+        <p>If you think the nicest animal has changed from what it was before, then try to find out the new nicest animal.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the nicest animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
@@ -540,9 +544,9 @@ switch (version) {
         <p>The next portion of the task will take approximately another 10 minutes, with longer individual rounds than the practice.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 
-        var english9 = `Did you feel as though the decks were tricking you?`;
+        // var english9 = `Did you feel as though the decks were tricking you?`;
 
-        var english10 = null;
+        // var english10 = null;
 
         // TASK 2: Please add remaining french and german language for the loss version
         var french1 = `

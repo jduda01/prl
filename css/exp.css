@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%; /* Adapted for full width */
-    max-width: 700px; /* Max width to maintain layout on larger screens */
+    max-width: 1000px; /* Max width to maintain layout on larger screens. JD updated 1/26/26 to enlarge image */ 
     margin: 0 auto;
     flex-wrap: wrap; /* Allow items to wrap as needed */
 }
@@ -12,8 +12,8 @@
 .stimuli-left,
 .stimuli-middle,
 .stimuli-right {
-    width: calc((100% - 20px) / 3); /* Original width calculation */
-    height: calc(((100% - 20px) / 3) * 1.4); /* Maintain aspect ratio */
+    width: calc((100% - 100px) / 3); /* Original width calculation. JD updated 1/26/26 from 20 to 100px to increase width b/w images */
+    height: calc(((100% - 100px) / 3) * 1.4); /* JD updated 1/26/26 from 20 to 100px to maintain aspect ratio */
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -55,16 +55,16 @@
 
 .outcome-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* JD changed from center to space-between to increase distance b/w items */
     align-items: center;
     width: 100%; /* Adapt width for responsiveness */
-    max-width: 466.67px; /* Control layout on larger screens */
+    max-width: 1000px;; /* Control layout on larger screens. JD updated 1/26/26 to match animal stimuli */
     margin: 0 auto;
 }
 
 .outcome-left,
 .outcome-right {
-    width: calc(50% - 5px); /* Adjust for two items */
+    width: calc(47% - 20px); /* JD adjusted to change distance b/w items */
     height: auto; /* Dynamic height */
     margin-bottom: 10px;
     display: flex;
