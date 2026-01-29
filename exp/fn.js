@@ -124,12 +124,12 @@ function businessLogic() {
     // 'response - 1' will give position of probability value within currentProbability vector (index)
     // note: users can input 1,2,3 but we index by 0,1,2 so 1->0, 2->1, 3->2
     if (Math.random() <= currentProbability[response - 1]) {
-        // observedOutcome = outcome[0]; // output win (100) card
-        observedOutcome = `stim/${version}/outcome/scaled_win.png`;
+        // observedOutcome = outcome[0]; // output win (50 - gain version, 0 - loss version) card
+        observedOutcome = `stim/${version}/outcome/squared_win.png`; // JD replaced with squared_win to match spects of animal stims (1/26/26)
         win = true;
     } else {
-        // observedOutcome = outcome[1]; // output lose (-50) card
-        observedOutcome = `stim/${version}/outcome/scaled_lose.png`;
+        // observedOutcome = outcome[1]; // output lose (-50 - loss version, 0 - gain version) card
+        observedOutcome = `stim/${version}/outcome/squared_lose.png`; // JD replaced with squared_win to match spects of animal stims (1/26/26)
         win = false;
     }
 
@@ -181,8 +181,18 @@ function feedbackLogic(data) {
     //     "trial_type",
     //     "internal_node_id",
     // ]);
+    // data.modulus = modulus;
     data.difficulty = difficulty;
-    data.stimuliSet = stimuliSet;
+    data.stimuli_set = stimuliSet;
+
+    //Add stimulus order and shorten name for readability
+    jsPsych.data.addProperties({ stim_order });
+    console.log(stim_order)
+
+    // save which stimulus was selected based on the response (JD added 1/29/26)
+    selected_stim = stim_order[response - 1];
+    console.log(selected_stim)
+    data.selected_stim = selected_stim;
     // data.max_strikes = maxStrikes; // Jessie commented out 1/26/26
     // data.max_streaks = maxStreaks; // Jessie commented out 1/26/26
     data.index = trialIterator;
@@ -213,6 +223,8 @@ function feedbackLogic(data) {
         data.reversal_type = false; // first trial reversal always undefined
         console.log(data.reversal_type);
     }
-    // How to compute performance-dependent reversals from `reversal_type` (previously known as `trial_type`)?: Substract trials indexed of 40,80, and 120.
+    
     data.reward_tally = score;
+
+    
 }

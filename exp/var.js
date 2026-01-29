@@ -2,6 +2,11 @@
 
 let trialIterator = 0; // first trial will increment from 0 to 1
 let nextReversalAt = null; // JD added 1/25/26 to track reversals
+let selected_stim = []; // JD added 1/29/26 to save which stimulus was selected
+let reversalRanges = [];
+// let phaseProbabilities = []; // JD removed 1/26/26 - replaced with reversalRanges
+let currentProbability = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
+
 
 // JD commented this section out - 1/26/26 - manually choose stimulus set instead
 /**
@@ -283,10 +288,11 @@ const outcome = [
 
 console.log("Final stim array for version", version, ":", stim);
 
-// PRL-specific variables
-// let phaseProbabilities = []; // JD removed 1/26/26 - replaced with reversalRanges
-let reversalRanges = [];
-let currentProbability = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
+// save stimulus order as a variable so it can be referenced later
+const stim_order = stim.map(path =>
+    path.match(/(cat|dog|rabbit)square/i)?.[1] ?? "unknown"
+);
+
 
 // Create variables with initial values for streak and strike
 let streak = 0; 

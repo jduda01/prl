@@ -382,7 +382,7 @@ switch (version) {
         // } total across the two blocks"
 
         var english3 = `
-        <p>In this game, you will meet three animals. On each turn you will choose one of them.</p>
+        <p>In this game, you will see three kinds of animals. On each turn you will choose one of them.</p>
         <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
         <p>Let's practice choosing an animal.</p>
         <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
@@ -410,24 +410,24 @@ switch (version) {
 
         var english6 = `
         <p>Good job! You have successfully practiced selecting animals.</p>
-        <p>Some of the animals are not as nice as others.</p>
-        <p>An animal can either take away ${losePoints} points or ${winPoints} points.</p>
+        <p>Some animals lead to a better outcome than others.</p>
+        <p>An animal can either take away ${losePoints} points or no points.</p>
+        <p>Your remaining points will be converted to a final bonus of $1 per every ${pointsPerDollar} points at the end of the game.</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
         <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
         </div>
-        <p><strong>Note that each animal can give you either a loss or no loss.</strong></p>
-        <p>Your job is to figure out which animal is the nicest animal, so that you can keep as many points as possible.</p>
+        <p>Your job is to figure out which animal is the best choice, so that you can keep as many points as possible.</p>
         Please press the zero (0) key to continue.`;
 
         var english7 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the nicest animal will change!</b></p>
-        <p>If you think the nicest animal has changed from what it was before, then try to find out the new nicest animal.</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the nicest animal will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
@@ -490,7 +490,7 @@ switch (version) {
         // } across the two blocks
 
         var english3 = `
-        <p>In this game, you will meet three animals. On each turn you will choose one of them.</p>
+        <p>In this game, you will meet three animals. On each turn you will approach one of them.</p>
         <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
         <p>Let's practice choosing an animal.</p>
         <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
@@ -518,24 +518,24 @@ switch (version) {
 
         var english6 = `
         <p>Good job! You have successfully practiced selecting animals.</p>
-        <p>Some of the animals are nicer than others.</p>
-        <p>An animal can either give you ${winPoints} points or ${losePoints} points.</p>
+        <p>Some animals lead to a better outcome than others.</p>
+        <p>An animal can either give you ${winPoints} points or no points.</p>
+        <p>Your total points will be converted to a final bonus of $1 per every ${pointsPerDollar} points at the end of the game.</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
         <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
         <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
-        <p><strong>Note that each animal can give you either a reward or no reward.</strong></p>
-        <p>Your job is to figure out which animal is the nicest animal, so that you can gain as many points as possible.</p>
+        <p>Your job is to figure out which animal is the best choice, so that you can gain as many points as possible.</p>
         Please press the zero (0) key to continue.`;
 
         var english7 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the nicest animal will change!</b></p>
-        <p>If you think the nicest animal has changed from what it was before, then try to find out the new nicest animal.</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the nicest animal will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
