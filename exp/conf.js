@@ -13,12 +13,13 @@ const enableTouch = false;
 
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
-let version; // Version defined by modulus in var.js
-const modulus = 4; //JD: Pasted from redirect.js 
-const versionByModulus = counterbalanceParticipants(subjectId, modulus);
+let version; 
+const modulus = 4; 
+const phase = counterbalanceParticipants(subjectId, modulus); 
+console.log("Phase is " + phase)
 
 // JD - when running both gain and loss, add 4 instances here with gain
-switch (versionByModulus){
+switch (phase){
     case 0: // "stable-stable"
         version = "loss";
         break;
@@ -35,8 +36,8 @@ switch (versionByModulus){
 
 const counterbalance = false;
 
-// hard coding a phase will override the randomization
-let phase = undefined;
+// // hard coding a phase will override the randomization 
+// let phase = undefined;
 
 // General Settings
 const experimentName = "Probabilistic Reversal Learning Task";
