@@ -55,16 +55,24 @@
 
 .outcome-container {
     display: flex;
-    justify-content: space-between; /* JD changed from center to space-between to increase distance b/w items */
+    justify-content: center;    
     align-items: center;
     width: 100%; /* Adapt width for responsiveness */
     max-width: 1000px;; /* Control layout on larger screens. JD updated 1/26/26 to match animal stimuli */
     margin: 0 auto;
 }
 
-.outcome-left,
+.outcome-left {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: center;  
+    align-items: center;
+    overflow: hidden;
+    margin-left: 20px; 
+}
 .outcome-right {
-    width: calc(47% - 20px); /* JD adjusted to change distance b/w items */
+    width: 30%; /* JD adjusted to change distance b/w items. Can also use calc((100% - 20px) / 3 */
     height: auto; /* Dynamic height */
     margin-bottom: 10px;
     display: flex;
