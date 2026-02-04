@@ -411,7 +411,7 @@ switch (version) {
         var english6 = `
         <p>Good job! You have successfully practiced selecting animals.</p>
         <p>Some animals lead to a better outcome than others.</p>
-        <p>An animal can either take away ${losePoints} points or no points.</p>
+        <p>An animal can either take away ${losePoints} points or allow you to keep points.</p>
         <p>Your remaining points will be converted to a final bonus of $1 per every ${pointsPerDollar} points at the end of the game.</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
@@ -424,7 +424,7 @@ switch (version) {
         var english7 = `
         <p>However, there is one final catch:</p>
         <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal.</p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
         <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
@@ -532,7 +532,7 @@ switch (version) {
         var english7 = `
         <p>However, there is one final catch:</p>
         <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal.</p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>
         <br />
         <p>The following is a practice round of just 3 turns.<p>
         <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
