@@ -4,8 +4,9 @@ let trialIterator = 0; // first trial will increment from 0 to 1
 let nextReversalAt = null; // JD added 1/25/26 to track reversals
 let selected_stim = []; // JD added 1/29/26 to save which stimulus was selected
 let reversalRanges = [];
-// let phaseProbabilities = []; // JD removed 1/26/26 - replaced with reversalRanges
-let currentProbability = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
+// Randomize initial reward probability set at start of experiment
+let taskProbabilities = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
+let currentProbability = shuffleArray(taskProbabilities);
 
 
 // JD commented this section out - 1/26/26 - manually choose stimulus set instead
@@ -339,6 +340,4 @@ switch (phase){
         break;
 };
 
-// JD commented out because no contingency shift
-// // Randomize initial reward probability set at start of experiment
-// currentProbability = shuffleArray([...phaseProbabilities[0]]);
+

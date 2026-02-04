@@ -225,6 +225,7 @@ function feedbackLogic(data) {
     }
     
     data.reward_tally = score;
+    data.phase = phase;
 
     
 }
