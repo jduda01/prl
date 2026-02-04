@@ -109,7 +109,7 @@ const consentLink =
 // Redirect Configuration (Daisy Chaining)
 const urlConfig = {
     // redirect only
-    default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bErtyAFIwnwDhWu",
+    default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", //JD: replace with debrief link
     // auto-counterbalance
     // When running both gain and loss, update the modulus to 8 in var and replace 0 with 0-3 and 1 with 4-7
     // gain: { 
@@ -120,6 +120,4 @@ const urlConfig = {
     //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
     //     1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
     // },
-    gain: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq",
-    loss: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq"
 }
