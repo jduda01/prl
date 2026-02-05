@@ -14,7 +14,7 @@ const enableTouch = false;
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
 let version; 
-const modulus = 4; 
+const modulus = 8; 
 const phase = counterbalanceParticipants(subjectId, modulus); 
 console.log("Phase is " + phase)
 
@@ -31,6 +31,18 @@ switch (phase){
         break;
     case 3: //"volatile-volatile":
         version = "loss";
+        break;
+    case 4: // "stable-stable"
+        version = "gain";
+        break;
+    case 5: // "stable-volatile":
+        version = "gain";
+        break;
+    case 6: // "volatile-stable":
+        version = "gain";
+        break;
+    case 7: //"volatile-volatile":
+        version = "gain";
         break;
 };
 
@@ -103,23 +115,41 @@ const intake = {
 
 // Qualtrics Survey Configuration
 
-const consentLink =
-    "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_9H0WmX4yKv4jz4a";
+// const consentLink =
+//     "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_9H0WmX4yKv4jz4a";
 
 // Redirect Configuration (Daisy Chaining)
 const urlConfig = {
     // redirect only
     // default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", //JD: replaced with debrief link
     // auto-counterbalance
-    // When running both gain and loss, update the modulus to 8 in var and replace 0 with 0-3 and 1 with 4-7
-    // gain: { 
-    //     0: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
-    //     1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
-    // },
-    // loss: {
-    //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_82Ll88zGoFlwIaq", // questionnaires
-    //     1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
-        loss: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", //JD: move within above "gain" and "loss" brackets when doing two-task version
-        gain:  "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE" //JD: move within above "gain" and "loss" brackets when doing two-task version
-    // },
+    // When running both gain and loss: modulus 8, if just loss: 0-3; just gain: 4-7
+    gain: { 
+        //If running both gain and loss, uncomment the following lines
+        0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+        1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+        2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+        3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+        4: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+        5: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+        6: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+        7: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+    },
+    loss: {
+        // If running both gain and loss, uncomment the following lines
+        0: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+        1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+        2: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+        3: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+        4: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        5: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        6: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        7: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+
+        // //If running just loss, uncomment the following lines
+        //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        //     1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        //     2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+        //     3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
+    },
 }

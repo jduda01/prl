@@ -376,16 +376,17 @@ switch (version) {
             lossStartingPoints / pointsPerDollar
         } at the end of these rounds.</p> 
         <p>Please press the zero (0) key to continue.</p>`;
-        // JD removed the below from line 377 - add back when running both gain and loss.
+       
+        // Uncomment when running both versions
         // "and $${
         //     (lossStartingPoints * 2) / pointsPerDollar
         // } total across the two blocks"
 
         var english3 = `
-        <p>In this game, you will see three kinds of animals. On each turn you will choose one of them.</p>
-        <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
-        <p>Let's practice choosing an animal.</p>
-        <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
+        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to pick the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice selecting an animal.</p>
+        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -393,7 +394,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now choose the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -401,7 +402,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now choose the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -467,7 +468,7 @@ switch (version) {
 
     case "gain":
         var english0 = `
-        <div style="background-color:red; padding:10px ">
+        <div style="background-color:green; padding:10px ">
         <p style="color:white">Welcome to the experiment!</p>
         <p style="color:white">Press any key to begin.</p>
         </div>`;
@@ -490,10 +491,10 @@ switch (version) {
         // } across the two blocks
 
         var english3 = `
-        <p>In this game, you will meet three animals. On each turn you will approach one of them.</p>
-        <p>You can choose an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
-        <p>Let's practice choosing an animal.</p>
-        <p>Please choose the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
+        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice selecting an animal.</p>
+        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -501,7 +502,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now choose the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -509,7 +510,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now choose the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
