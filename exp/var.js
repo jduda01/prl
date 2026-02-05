@@ -322,19 +322,19 @@ let strike = 0;
 
 // JD: instead of modulating noise for difficulty, we use volatility level 
 switch (phase){
-    case 0: 
+    case 0: case 4: 
         difficulty = "stable-stable";
         reversalRanges.push([15, 20], [15, 20]);
         break;
-    case 1:
+    case 1: case 5:
         difficulty = "stable-volatile";
         reversalRanges.push([15, 20], [30, 40]);
         break;
-    case 2:
+    case 2: case 6:
         difficulty = "volatile-stable";
         reversalRanges.push([30, 40], [15, 20]);
         break;
-    case 3: 
+    case 3: case 7: 
         difficulty = "volatile-volatile";
         reversalRanges.push([30, 40], [30, 40]);
         break;
