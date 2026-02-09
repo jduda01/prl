@@ -1,32 +1,21 @@
 "use strict";
 
 function businessLogic() {
+    
+    const currentBlock = Math.ceil((trialIterator + 1) / trialsPerLargeBlock); // Determine current block. trials indexed at 0 so add 1 to determine current block
+    console.log("Current block " + currentBlock) // NOTE: Remove before final launching
     let data = jsPsych.data.get().last(1).values(); // Assuming this is async
-    let response = data[0].response;
-        console.log("response is "+response)
-    let highestProbabilityIndex;
-        console.log(currentProbability); // NOTE: remove before launching
+    let response = data[0].response; // Detemrine response
+    // let highestProbabilityIndex; // Initialize variable for highest probability index
+   
+    // Log trial information
+    console.log("Trial is " + (trialIterator + 1)) // trials indexed at 0 so add 1. NOTE: Remove before launching.
+    console.log("response is "+response)
 
-    // Reverse every [reversalRanges] trials in blocks 1 and 2
-    const currentBlock = Math.ceil((trialIterator + 1) / trialsPerLargeBlock); // trials indexed at 0 so add 1
-        console.log("Trial is " + trialIterator + 1) // trials indexed at 0 so add 1
-        console.log("Current block " + currentBlock) // NOTE: Remove before final launching
-        console.log("Reversals set to " + reversalRanges[currentBlock-1]) // NOTE: Remove before final launching
-
-    // initialize next reversal at start of block
-    if (trialIterator === 0 || // First trial, indexes at 0. So, current block must be converted 1->0, 2->1, etc.
-        trialIterator % trialsPerLargeBlock === 0 // After each 80 trials
-    ) {
-        const [minReversals, maxReversals] = reversalRanges[currentBlock-1];
-        nextReversalAt =
-            trialIterator +
-            Math.floor(Math.random() * (maxReversals - minReversals + 1)) + minReversals;
-            console.log("Next reversal is " + (nextReversalAt + 1)) //Adding 1 to the trial iterator since 0 = trial 1
-            console.log("Trials between reversal:", nextReversalAt - trialIterator);
-    }
-
-    // trigger reversal
-    if (trialIterator === nextReversalAt) {
+    // Reverse at start of every block except the first
+    if  (trialIterator !== 0 && trialIterator % trialsPerLargeBlock === 0
+    ){
+     let highestProbabilityIndex;
         do {
             highestProbabilityIndex = currentProbability.indexOf(
                 Math.max(...currentProbability)
@@ -36,16 +25,49 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-        console.log("Reversal triggered")
-
-        // schedule next reversal in same block
+        console.log("Reversal triggered from new block")
+    }
+    
+   // Determine next reversal at start of block based on reversal ranges
+    if (trialIterator === 0 || // First trial, indexes at 0. So, current block must be converted 1->0, 2->1, etc.
+        trialIterator % trialsPerLargeBlock === 0 // After each 80 trials
+    ) {
+        console.log("Reversals ranges are " + reversalRanges[currentBlock-1]) // NOTE: Remove before final launching. Appears after any reversals but before feedback.
         const [minReversals, maxReversals] = reversalRanges[currentBlock-1];
         nextReversalAt =
             trialIterator +
             Math.floor(Math.random() * (maxReversals - minReversals + 1)) + minReversals;
-            console.log("Next reversal is " + nextReversalAt)
+            console.log("Next reversal is " + (nextReversalAt + 1)) //Adding 1 to the trial iterator since 0 = trial 1
             console.log("Trials between reversal:", nextReversalAt - trialIterator);
     }
+
+    // Trigger reversal based on reversal ranges, unless first trial of block (otherwise triggered elsewhere)
+    if (trialIterator === nextReversalAt && 
+         trialIterator % trialsPerLargeBlock !== 0 // Trigger reversal at planned next reversal or at start of next block
+    ) {
+        let highestProbabilityIndex;
+        do {
+            highestProbabilityIndex = currentProbability.indexOf(
+                Math.max(...currentProbability)
+            );
+            currentProbability = shuffleArray(currentProbability);
+        } while (
+            currentProbability.indexOf(Math.max(...currentProbability)) ===
+            highestProbabilityIndex
+        );
+        console.log("Reversal triggered from reversal ranges")
+
+        // schedule next reversal
+        const [minReversals, maxReversals] = reversalRanges[currentBlock-1];
+        nextReversalAt =
+            trialIterator +
+            Math.floor(Math.random() * (maxReversals - minReversals + 1)) + minReversals;
+            console.log("Next reversal is " + (nextReversalAt + 1))
+            console.log("Trials between reversal:", nextReversalAt - trialIterator);
+    }
+
+    console.log("Current probabilities are " + currentProbability); // NOTE: remove before launching. Shows the probabilities for each stimulus
+
 
     // logic to sample deck with respective reward probability
     // 'response - 1' will give position of probability value within currentProbability vector (index)
@@ -54,6 +76,7 @@ function businessLogic() {
     if (Math.random() <= currentProbability[response - 1]) {
         // observedOutcome = outcome[0]; // output win (50 - gain version, 0 - loss version) card
         observedOutcome = `stim/${version}/outcome/squared_win.png`; 
+        win = true;
     } else {
         // observedOutcome = outcome[1]; // output lose (-50 - loss version, 0 - gain version) card
         observedOutcome = `stim/${version}/outcome/squared_lose.png`; 
@@ -95,8 +118,7 @@ function businessLogic() {
 
     return html;
 }
-
-
+ 
 function feedbackLogic(data) {
     let rt = jsPsych.data.get().last(2).values()[0].rt;
     let response = jsPsych.data.get().last(2).values()[0].response;
@@ -131,10 +153,10 @@ function feedbackLogic(data) {
             previousTrial.deck_probabilities === currentTrial.deck_probabilities
                 ? false
                 : true; // if probabilities are different, reversal occurred (= true)
-        console.log("Reversal "+data.reversal_type); 
+        console.log("Reversal? "+data.reversal_type); 
     } else {
         data.reversal_type = false; // first trial reversal always undefined
-        console.log("Reversal "+data.reversal_type);
+        console.log("Reversal? "+data.reversal_type);
     }
     
     data.reward_tally = score;

@@ -12,26 +12,23 @@ const debug = true;
 const enableTouch = false;
 
 // Experiment Version
-// Options: "deck", "avatar", "sabotage", "gain", "loss"
 let version; 
+
+// Modulus and phase normally controlled by getRedirectLink() in redirect.js but can hard code them here instead if needed.
 const modulus = 4; //Update to 8 to run gain and loss combined version 
-const phase = counterbalanceParticipants(subjectId, modulus); // set phase = modulus to allow for printing to URL and file name
+const phase = counterbalanceParticipants(subjectId, modulus);
 console.log("Phase is " + phase)
 
-// JD - when running both gain and loss, add 4 instances here with gain
 switch (phase){
-    case 0: case 1: case 2: case 3: // loss stable-stable, stable-volatile, volatile-stable, volatile-volatile
+    case 0: case 1: case 2: case 3: // loss: stable-stable, stable-volatile, volatile-stable, volatile-volatile
         version = "loss";
         break;
-    case 4: case 5: case 6: case 7: // gain stable-stable, stable-volatile, volatile-stable, volatile-volatile
+    case 4: case 5: case 6: case 7: // gain: stable-stable, stable-volatile, volatile-stable, volatile-volatile
         version = "gain";
         break;
 };
 
 const counterbalance = false;
-
-// // hard coding a phase will override the randomization 
-// let phase = undefined;
 
 // General Settings
 const experimentName = "Probabilistic Reversal Learning Task";
@@ -40,12 +37,12 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-let difficulty; // difficulty now set in var.js switch function. Options: stable-stable, stable-volatile, volatile-stable, volatile-volatile
-const trials = debug ? 1 : 40; // Note: can switch debug mode to e.g., 20 trials (rather than 1) for fuller piloting
-const blocks = 4; //JD note: blocks as defined by original PRL (every 40 trials), see "trialsPerLargeBlock" for complete block
+let difficulty; // difficulty set in var.js. Options: stable-stable, stable-volatile, volatile-stable, volatile-volatile
+const trials = debug ? 1 : 40; // Can change first number to pilot more or fewer trials (must set debug = TRUE above)
+const blocks = 4; // Blocks are defined as 40 trials by original PRL. Use "trialsPerLargeBlock" for complete 80-trial block
 const totalTrials = trials * blocks;
-const trialsPerLargeBlock = 2 * trials; // JD added 1/25/26 to set blocks to twice as large as the traditional 40-trial blocks 
-const currentStimulusSet = 8; // JD added 1/26/26 to make stimulus set a modifiable constant
+const trialsPerLargeBlock = 2 * trials; // Stores 80-trial blocks
+const currentStimulusSet = 8; // See stimulus sets in var.js
 
 // Point Settings
 let winPoints = [];
@@ -72,23 +69,6 @@ const pointsPerDollar = 2000;
 const repetitions = {
     production: totalTrials,
     debug: totalTrials, 
-};
-
-// Contact Information
-const adminEmail = undefined;
-
-// Intake Settings
-const intake = {
-    subject: {
-        minLength: 7,
-        maxLength: 7,
-        prefix: "VIP",
-    },
-    sites: ["Vanderbilt"], // Add your sites here
-    phenotypes: ["sz"], // Add your phenotypes here
-    visits: [1, 3], // Define which visits are allowed (maps to stimulus sets 0, 1)
-    weeks: [], // Define which weeks are allowed if using weeks instead of visits
-    nih: false, // Set to true if this is an NIH study requiring GUID
 };
 
 // Redirect Configuration (Daisy Chaining)
