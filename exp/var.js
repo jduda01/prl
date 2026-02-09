@@ -252,8 +252,8 @@ console.log("Generated stimulus arrays for set:", currentStimulusSet);
 // Create win as global variable so we use it in feedback and printing csv
 let win;
 
-// Add set to js set so we add it into the timeline feedback csv output
-let stimuliSet = parseInt(currentStimulusSet);
+// Add set to js so we add it into the timeline feedback csv output
+let stimulusSet = parseInt(currentStimulusSet);
 
 let score = 0; // score accumulated throughout the experiment
 let earnings = 0; // earnings accumulated throughout the experiment
@@ -328,11 +328,11 @@ switch (phase){
         break;
     case 1: case 5:
         difficulty = "stable-volatile";
-        reversalRanges.push([15, 20], [30, 40]);
+        reversalRanges.push([30, 40], [15, 20]);
         break;
     case 2: case 6:
         difficulty = "volatile-stable";
-        reversalRanges.push([30, 40], [15, 20]);
+        reversalRanges.push([15, 20], [30, 40]);
         break;
     case 3: case 7: 
         difficulty = "volatile-volatile";

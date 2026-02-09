@@ -14,34 +14,16 @@ const enableTouch = false;
 // Experiment Version
 // Options: "deck", "avatar", "sabotage", "gain", "loss"
 let version; 
-const modulus = 8; 
-const phase = counterbalanceParticipants(subjectId, modulus); 
+const modulus = 4; //Update to 8 to run gain and loss combined version 
+const phase = counterbalanceParticipants(subjectId, modulus); // set phase = modulus to allow for printing to URL and file name
 console.log("Phase is " + phase)
 
 // JD - when running both gain and loss, add 4 instances here with gain
 switch (phase){
-    case 0: // "stable-stable"
+    case 0: case 1: case 2: case 3: // loss stable-stable, stable-volatile, volatile-stable, volatile-volatile
         version = "loss";
         break;
-    case 1: // "stable-volatile":
-        version = "loss";
-        break;
-    case 2: // "volatile-stable":
-        version = "loss";
-        break;
-    case 3: //"volatile-volatile":
-        version = "loss";
-        break;
-    case 4: // "stable-stable"
-        version = "gain";
-        break;
-    case 5: // "stable-volatile":
-        version = "gain";
-        break;
-    case 6: // "volatile-stable":
-        version = "gain";
-        break;
-    case 7: //"volatile-volatile":
+    case 4: case 5: case 6: case 7: // gain stable-stable, stable-volatile, volatile-stable, volatile-volatile
         version = "gain";
         break;
 };
@@ -58,17 +40,16 @@ const language = "english";
 const theme = "light";
 
 // Trial Settings
-let difficulty; // difficulty now set in var.js switch function
-// const difficulty = "stable-stable"; // Options: "easy-easy", "easy-hard", "hard-easy", "hard-hard"
-const trials = debug ? 1 : 40;
-const blocks = 4; //JD: blocks as defined by original PRL (every 40 trials)
+let difficulty; // difficulty now set in var.js switch function. Options: stable-stable, stable-volatile, volatile-stable, volatile-volatile
+const trials = debug ? 1 : 40; // Note: can switch debug mode to e.g., 20 trials (rather than 1) for fuller piloting
+const blocks = 4; //JD note: blocks as defined by original PRL (every 40 trials), see "trialsPerLargeBlock" for complete block
 const totalTrials = trials * blocks;
 const trialsPerLargeBlock = 2 * trials; // JD added 1/25/26 to set blocks to twice as large as the traditional 40-trial blocks 
 const currentStimulusSet = 8; // JD added 1/26/26 to make stimulus set a modifiable constant
 
 // Point Settings
-let winPoints = 100;
-let losePoints = -50;
+let winPoints = [];
+let losePoints = [];
 
 switch (version) {
     case "loss":
@@ -79,12 +60,9 @@ switch (version) {
         winPoints = 50;
         losePoints = 0;
         break;
-    // 'deck', 'avatar', 'sabotage' cases use default values
 }
 
 // Reward Settings
-const bonus = 2.0; // Bonus amount in dollars
-const percentile = 25; // Cut-off performance percentile for receiving a bonus
 const reward = "points"; // Options: "points", "$"
 const lossStartingPoints = 8000;
 const gainStartingPoints = 0;
@@ -93,7 +71,7 @@ const pointsPerDollar = 2000;
 // Repetitions
 const repetitions = {
     production: totalTrials,
-    debug: 1,
+    debug: totalTrials, 
 };
 
 // Contact Information
@@ -113,16 +91,8 @@ const intake = {
     nih: false, // Set to true if this is an NIH study requiring GUID
 };
 
-// Qualtrics Survey Configuration
-
-// const consentLink =
-//     "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_9H0WmX4yKv4jz4a";
-
 // Redirect Configuration (Daisy Chaining)
 const urlConfig = {
-    // redirect only
-    // default: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", //JD: replaced with debrief link
-    // auto-counterbalance
     // When running both gain and loss: modulus 8, if just loss: 0-3; just gain: 4-7
     gain: { 
         //If running both gain and loss, uncomment the following lines

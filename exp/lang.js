@@ -425,21 +425,20 @@ switch (version) {
         var english7 = `
         <p>However, there is one final catch:</p>
         <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
-        <br />
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>`;
+
+        var english8 = `
         <p>The following is a practice round of just 3 turns.<p>
         <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
-        var english8 = `
+        var english9 = `
         <p>You have now completed the practice round.</p>
-        <p>The next portion of the task will take approximately another 10 minutes, with longer individual rounds than the practice.</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes</p>
+        <p>You will now be given <b> 8000 points </b> and should attempt to retain points as you select animals.</p>
+        <p>As a reminder, your remaining points will be converted to a final bonus of $1 per every ${pointsPerDollar} points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
-
-        // var english9 = `Did you feel as though the decks were tricking you?`;
-
-        // var english10 = null;
 
         // TASK 2: Please add remaining french and german language for the loss version
         var french1 = `
@@ -533,21 +532,20 @@ switch (version) {
         var english7 = `
         <p>However, there is one final catch:</p>
         <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>
-        <br />
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>`;
+        
+        var english8 = `
         <p>The following is a practice round of just 3 turns.<p>
         <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
         <br /><br />
         Please press the zero (0) key to start the practice round.`;
 
-        var english8 = `
+        var english9 = `
         <p>You have now completed the practice round.</p>
-        <p>The next portion of the task will take approximately another 10 minutes, with longer individual rounds than the practice.</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes</p>
+        <p>You will be given an opportunity to gain points as you select animals.</p>
+        <p>As a reminder, your total points will be converted to a final bonus of $1 per every ${pointsPerDollar} points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
-
-        // var english9 = `Did you feel as though the decks were tricking you?`;
-
-        // var english10 = null;
 
         // TASK 2: Please add remaining french and german language for the loss version
         var french1 = `
