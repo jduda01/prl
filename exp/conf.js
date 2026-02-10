@@ -6,7 +6,7 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = true;
+const debug = false;
 
 // enable touch screen compatibility and adjusts instruction for touch
 const enableTouch = false;

@@ -13,9 +13,7 @@ let instructions = [];
  * Translates the text of consent-related buttons based on the selected language.
  * Defaults to English if the selected language is unsupported.
  *
- * @param {string} language - The selected language for translation. Supported languages
- *                            include English, French, and German. Defaults to English
- *                            for any other inputs or unsupported languages.
+ * @param {string} language - The selected language for translation.
  * @param {array} instructions - An array of instructions specified to be translated.
  */
 
@@ -84,34 +82,37 @@ switch (version) {
         <p>Good job! You have successfully practiced selecting animals.</p>
         <p>Some animals lead to a better outcome than others.</p>
         <p>An animal can either take away <b> ${losePoints} </b> points or allow you to <b> keep </b> points.</p>
-          <p>Below you can see what those outcomes look like:</p>
+        <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
         <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
-        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>;
         </div>
+        <p>Please press the zero (0) key to continue.</p>`;
+        
+        var english7 = `
         <p>Your job is to figure out which animal is the best choice, so that you can keep as many points as possible.</p>
         <p>Your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
-        Please press the zero (0) key to continue.`;
-
-        var english7 = `
-        <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>`;
+        <p>Please press the zero (0) key to continue.</p>`;
 
         var english8 = `
-        <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
-        <br /><br />
-        Please press the zero (0) key to start the practice round.`;
+        <p>However, there is one final catch:</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
+        <p>Please press the zero (0) key to continue.`;
 
         var english9 = `
+        <p>The following is a practice round of just 3 turns.<p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        <p>Please press the zero (0) key to start the practice round.</p>`;
+
+        var english10 = `
         <p>You have now completed the practice round.</p>
         <p>You will now begin the main task, which will take approximately 10 minutes</p>
         <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select animals.</p>
         <p>As a reminder, your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 
-        var english10 = (score, earnings) => {
+        var english11 = (score, earnings) => {
             return `
                 <div class="body-white-theme">
                     <p>Thank you!</p>
@@ -137,15 +138,15 @@ switch (version) {
 
         var english1 = `
         <p>You will now play several rounds of a card game.</p> 
-        <p>You will be given a starting pool of <b> ${gainStartingPoints} </b> points and your goal is to gain as many points as possible during the rounds.</p>
+        <p>You will be given a starting pool of ${gainStartingPoints} points and your goal is to gain as many points as possible during the rounds.</p>
         <p>Please press the zero (0) key to continue.</p>`;
         console.log(version);
 
         var english2 = `
         <p>Your points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points, so please do your best. </p> 
-        <p>You can earn a maximum bonus of $${
+        <p>You can earn a maximum bonus of <b> $${
             (winPoints * blocks * trials) / pointsPerDollar
-        } at the end of these rounds. </p> 
+        } </b> at the end of these rounds. </p> 
         <p>Please press the zero (0) key to continue.</p>`;
        
         // JD removed the below from line ~485; add back when administering both gain and loss
@@ -189,29 +190,32 @@ switch (version) {
         <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
         <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
         </div>
-        <p>Your job is to figure out which animal is the best choice, so that you can gain as many points as possible.</p>
-        <p>Your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
-        Please press the zero (0) key to continue.`;
+        <p>Please press the zero (0) key to continue.</p>`;
 
         var english7 = `
-        <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>`;
+        <p>Your job is to figure out which animal is the best choice, so that you can gain as many points as possible.</p>
+        <p>Your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
+        <p>Please press the zero (0) key to continue.</p>`;
 
         var english8 = `
-        <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
-        <br /><br />
-        Please press the zero (0) key to start the practice round.`;
+        <p>However, there is one final catch:</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>
+        <p>Please press the zero (0) key to continue.</p>`;
 
         var english9 = `
+        <p>The following is a practice round of just 3 turns.<p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        Please press the zero (0) key to start the practice round.`;
+
+        var english10 = `
         <p>You have now completed the practice round.</p>
         <p>You will now begin the main task, which will take approximately 10 minutes</p>
         <p>You will be given an opportunity to gain points as you select animals.</p>
         <p>As a reminder, your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 
-        var english10 = (score, earnings) => {
+        var english11 = (score, earnings) => {
             return `
                 <div class="body-white-theme">
                     <p>Thank you!</p>
@@ -245,7 +249,8 @@ switch (language) {
                     english7,
                     english8,
                     english9,
-                    (score, earnings) => english10(score, earnings), // Store it as a function that accepts score
+                    english10,
+                    (score, earnings) => english11(score, earnings), // Store it as a function that accepts score
                 ];
                 break;
             case true:
@@ -260,14 +265,11 @@ switch (language) {
                     englishTouch7,
                     englishTouch8,
                     englishTouch9,
-                    (score, earnings) => english10(score, earnings), // Store it as a function that accepts score
+                    englishTouch10,
+                    (score, earnings) => english11(score, earnings), // Store it as a function that accepts score
                 ];
                 break;
         }
-        break;
-    // Task 4: Please add the case for both french and german
-    case "french":
-        instructions = [french1];
         break;
 }
 

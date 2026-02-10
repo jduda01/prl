@@ -63,6 +63,14 @@ const instruction8 = {
     stimulus: instructions[8],
     choices: ["0"],
 };
+
+/*define task instructions*/
+const instruction9 = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: instructions[9],
+    choices: ["0"],
+};
+
 const instructionSet = [
     instruction1,
     instruction2,
@@ -72,11 +80,12 @@ const instructionSet = [
     instruction6,
     instruction7,
     instruction8,
+    instruction9,
 ];
 
 const endPracticeInstructions = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: instructions[9],
+    stimulus: instructions[10],
     choices: ["0"],
     on_load: () => {
         // Make visible progress bar to screen
@@ -222,72 +231,6 @@ const procedureTrial = {
     ],
     repetitions: getRepetitions(), // toggle between debug and production mode
 };
-
-// const screenRating1 = {
-//     type: jsPsychSurveyMultiChoice,
-//     questions: [
-//         {
-//             prompt: instructions[9],
-//             name: "rating_random",
-//             options: [
-//                 "Definitely Not",
-//                 "Probably Not",
-//                 "Unsure",
-//                 "Probably Yes",
-//                 "Definitely Yes",
-//             ],
-//             required: true,
-//             horizontal: true,
-//         },
-//     ],
-//     choices: "NO_KEYS",
-//     on_start: () => {
-//         document.getElementById("unload").onbeforeunload = "";
-//         $(document).ready(() => {
-//             $("body").addClass("showCursor"); // returns cursor functionality
-//         });
-//     },
-//     on_finish: (data) => {
-//         writeCandidateKeys(data); // Your custom function
-//         // Get the last trial's data and parse the 'responses' field
-//         data.rating_random = jsPsych.data
-//             .get()
-//             .last(1)
-//             .values()[0]
-//             .response.rating_random.toLowerCase();
-//         removeOutputVariables(data, "response", "question_order");
-//     },
-// };
-
-// const screenRating2 = {
-//     type: jsPsychSurveyMultiChoice,
-//     questions: [
-//         {
-//             prompt: instructions[10],
-//             name: "rating_sabotage",
-//             options: [
-//                 "Definitely Not",
-//                 "Probably Not",
-//                 "Unsure",
-//                 "Probably Yes",
-//                 "Definitely Yes",
-//             ],
-//             required: true,
-//             horizontal: true,
-//         },
-//     ],
-//     choices: "NO_KEYS",
-//     on_finish: (data) => {
-//         writeCandidateKeys(data); // Your custom function
-//         // Get the last trial's data and parse the 'responses' field
-//         data.rating_sabotage = jsPsych.data
-//             .get()
-//             .last(1)
-//             .values()[0]
-//             .response.rating_sabotage.toLowerCase();
-//         removeOutputVariables(data, "response", "question_order");
-//     },
-// };
 
 const dataSave = {
     type: jsPsychHtmlKeyboardResponse,
