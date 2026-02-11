@@ -15,7 +15,7 @@ Dive in and see how well you can adapt to the ever-shifting odds!
 ### Clone the Repository
 
 ```bash
-git clone --recurse-submodules -j4 git@github.com:belieflab/prl.git && cd prl &&
+git clone --recurse-submodules -j4 git@github.com:jduda01/prl.git && cd prl &&
 git submodule foreach --recursive 'git checkout $(git config -f $toplevel/.gitmodules submodule.$name.branch || echo main)'
 ```
 
