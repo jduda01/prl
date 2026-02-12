@@ -134,6 +134,11 @@ const cues_confidence = {
 };
 
 // practice trials
+let practiceOutcomes = shuffleArray([ // JD added to track whether win shown
+        'stim/loss/outcome/squared_win.png',
+        'stim/loss/outcome/squared_win.png',
+        'stim/loss/outcome/squared_lose.png']);
+
 const practiceFeedback = {
     type: jsPsychHtmlKeyboardResponse,
     response_ends_trial: false,
@@ -145,31 +150,32 @@ const practiceFeedback = {
         // console.log(response);
 
         let html;
+        let currentOutcome = practiceOutcomes.shift();
+
         if (response === "1") {
             html = `
                 <div class='image-container'>
-                    <img class='stimuli-left' src='${shuffleArray(outcome)[0]}'>
+                    <img class='stimuli-left' src='${currentOutcome}'>
                     <img class='stimuli-middle' src='${stim[1]}'>
                     <img class='stimuli-right' src='${stim[2]}'>
                 </div>`;
+                console.log(currentOutcome)
         } else if (response === "2") {
             html = `
                 <div class='image-container'>
                     <img class='stimuli-left' src='${stim[0]}'>
-                    <img class='stimuli-middle' src='${
-                        shuffleArray(outcome)[0]
-                    }'>
+                    <img class='stimuli-middle' src='${currentOutcome}'>    
                     <img class='stimuli-right' src='${stim[2]}'>
                 </div>`;
+                console.log(currentOutcome)
         } else if (response === "3") {
             html = `
                 <div class='image-container'>
                     <img class='stimuli-left' src='${stim[0]}'>
                     <img class='stimuli-middle' src='${stim[1]}'>
-                    <img class='stimuli-right' src='${
-                        shuffleArray(outcome)[1]
-                    }'>
+                    <img class='stimuli-right' src='${currentOutcome}'>
                 </div>`;
+                console.log(currentOutcome)
         }
         return html;
     },
