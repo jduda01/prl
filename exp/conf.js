@@ -6,7 +6,7 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = false;
+const debug = true;
 
 // enable touch screen compatibility and adjusts instruction for touch
 const enableTouch = false;
@@ -15,7 +15,7 @@ const enableTouch = false;
 let version; 
 
 // Modulus and phase normally controlled by getRedirectLink() in redirect.js but can hard code them here instead if needed.
-const modulus = 4; //Update to 8 to run gain and loss combined version 
+const modulus = 8; //Update to 8 to run gain and loss combined version 
 const phase = counterbalanceParticipants(subjectId, modulus);
 console.log("Phase is " + phase)
 
@@ -80,17 +80,17 @@ const urlConfig = {
         1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
-        4: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
-        5: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
-        6: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
-        7: "https://belieflab.yale.edu/arclab/prlLoss/", // loss
+        4: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
+        5: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
+        6: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
+        7: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
     },
     loss: {
         // If running both gain and loss, uncomment the following lines
-        0: "https://belieflab.yale.edu/arclab/prlGain/", // gain
-        1: "https://belieflab.yale.edu/arclab/prlGain/", // gain
-        2: "https://belieflab.yale.edu/arclab/prlGain/", // gain
-        3: "https://belieflab.yale.edu/arclab/prlGain/", // gain
+        0: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+        1: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+        2: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+        3: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
         4: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
         5: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
         6: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
