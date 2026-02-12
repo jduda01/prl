@@ -80,10 +80,10 @@ const urlConfig = {
         1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
-        4: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
-        5: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
-        6: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
-        7: "https://belieflab.yale.edu/arclab/stableVolatilePrl/", // loss
+        4: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+        5: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+        6: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+        7: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
     },
     loss: {
         // If running both gain and loss, uncomment the following lines
