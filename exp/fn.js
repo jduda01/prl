@@ -3,13 +3,13 @@
 function businessLogic() {
     
     const currentBlock = Math.ceil((trialIterator + 1) / trialsPerLargeBlock); // Determine current block. trials indexed at 0 so add 1 to determine current block
-    console.log("Current block " + currentBlock) // NOTE: Remove before final launching
+    console.log("Current block " + currentBlock) 
     let data = jsPsych.data.get().last(1).values(); // Assuming this is async
     let response = data[0].response; // Detemrine response
     // let highestProbabilityIndex; // Initialize variable for highest probability index
    
     // Log trial information
-    console.log("Trial is " + (trialIterator + 1)) // trials indexed at 0 so add 1. NOTE: Remove before launching.
+    console.log("Trial is " + (trialIterator + 1)) // trials indexed at 0 so add 1. 
     console.log("response is "+response)
 
     // Reverse at start of every block except the first
@@ -25,20 +25,20 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-        console.log("Reversal triggered from new block")
+        // console.log("Reversal triggered from new block")
     }
     
    // Determine next reversal at start of block based on reversal ranges
     if (trialIterator === 0 || // First trial, indexes at 0. So, current block must be converted 1->0, 2->1, etc.
         trialIterator % trialsPerLargeBlock === 0 // After each 80 trials
     ) {
-        console.log("Reversals ranges are " + reversalRanges[currentBlock-1]) // NOTE: Remove before final launching. Appears after any reversals but before feedback.
+        // console.log("Reversals ranges are " + reversalRanges[currentBlock-1])
         const [minReversals, maxReversals] = reversalRanges[currentBlock-1];
         nextReversalAt =
             trialIterator +
             Math.floor(Math.random() * (maxReversals - minReversals + 1)) + minReversals;
-            console.log("Next reversal is " + (nextReversalAt + 1)) //Adding 1 to the trial iterator since 0 = trial 1
-            console.log("Trials between reversal:", nextReversalAt - trialIterator);
+            // console.log("Next reversal is " + (nextReversalAt + 1)) //Adding 1 to the trial iterator since 0 = trial 1
+            // console.log("Trials between reversal:", nextReversalAt - trialIterator);
     }
 
     // Trigger reversal based on reversal ranges, unless first trial of block (otherwise triggered elsewhere)
@@ -55,19 +55,18 @@ function businessLogic() {
             currentProbability.indexOf(Math.max(...currentProbability)) ===
             highestProbabilityIndex
         );
-        console.log("Reversal triggered from reversal ranges")
+        // console.log("Reversal triggered from reversal ranges")
 
         // schedule next reversal
         const [minReversals, maxReversals] = reversalRanges[currentBlock-1];
         nextReversalAt =
             trialIterator +
             Math.floor(Math.random() * (maxReversals - minReversals + 1)) + minReversals;
-            console.log("Next reversal is " + (nextReversalAt + 1))
-            console.log("Trials between reversal:", nextReversalAt - trialIterator);
+            // console.log("Next reversal is " + (nextReversalAt + 1))
+            // console.log("Trials between reversal:", nextReversalAt - trialIterator);
     }
 
-    console.log("Current probabilities are " + currentProbability); // NOTE: remove before launching. Shows the probabilities for each stimulus
-
+    // console.log("Current probabilities are " + currentProbability); // NOTE: remove before launching. Shows the probabilities for each stimulus
 
     // logic to sample deck with respective reward probability
     // 'response - 1' will give position of probability value within currentProbability vector (index)
@@ -147,8 +146,7 @@ function feedbackLogic(data) {
         .values;
 
     data.reversal_type = deck.length > 1 && deck.at(-2) !== deck.at(-1);
-    console.log("Deck history:", deck);
-    console.log("Deck reversal? "+data.reversal_type)
+    // console.log("Deck reversal? "+data.reversal_type)
 
     data.reward_tally = score;
     data.phase = phase;
