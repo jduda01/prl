@@ -6,7 +6,7 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = false;
+const debug = true;
 
 // enable touch screen compatibility and adjusts instruction for touch
 const enableTouch = false;
@@ -15,7 +15,7 @@ const enableTouch = false;
 let version; 
 
 // Modulus and phase normally controlled by getRedirectLink() in redirect.js but can hard code them here instead if needed.
-const modulus = 8; //Update to 8 to run gain and loss combined version 
+const modulus = 4; //Update to 8 to run gain and loss combined version 
 const phase = counterbalanceParticipants(subjectId, modulus);
 console.log("Phase is " + phase)
 
@@ -74,32 +74,32 @@ const repetitions = {
 // Redirect Configuration (Daisy Chaining)
 const urlConfig = {
     // When running both gain and loss: modulus 8, if just loss: 0-3; just gain: 4-7
-    gain: { 
-        //If running both gain and loss, uncomment the following lines
+    // gain: { 
+    //     //If running both gain and loss, uncomment the following lines
+    //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     4: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+    //     5: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+    //     6: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+    //     7: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
+    // },
+    // loss: {
+    //     // If running both gain and loss, uncomment the following lines
+    //     0: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+    //     1: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+    //     2: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+    //     3: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
+    //     4: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     5: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     6: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    //     7: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+    // },
+
+    //If running just loss, uncomment the following lines
         0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
-        4: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
-        5: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
-        6: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
-        7: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // loss
-    },
-    loss: {
-        // If running both gain and loss, uncomment the following lines
-        0: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
-        1: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
-        2: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
-        3: "https://belieflab.yale.edu/arclab/stableVolatilePrl2/", // 2nd block task, will be gain in 8-modulus version
-        4: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        5: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        6: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        7: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-
-        // //If running just loss, uncomment the following lines
-        //     0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        //     1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        //     2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-        //     3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkF", // questionnaires
-    },
 }
