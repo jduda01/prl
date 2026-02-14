@@ -142,28 +142,6 @@ function feedbackLogic(data) {
         response == 1 ? 49 : response == 2 ? 50 : response == 3 ? 51 : null;
     data.reward_type = win;
 
-    // // initialize constants to represent trials that we are comparing
-    // const previousTrial = jsPsych.data.get().last(4).values()[0]; //  previous trial (.last(4))
-    // const currentTrial = jsPsych.data.get().last(1).values()[0]; // current trial (.last(1))
-
-    // // JD temporarily added to see last six rows of output
-    // console.log("---- LAST 6 ROWS ----");
-    // jsPsych.data.get().last(6).values().forEach((row, i) => {
-    //     console.log("Row -" + (6 - i), row);});
-    // console.log("----------------------");
-    // // check if the deck probabilities on current and previous trials are the same
-    // if (previousTrial.index !== undefined) {
-    //     // compare previous and current trials after the first trial
-    //     data.reversal_type =
-    //         previousTrial.deck_probabilities === currentTrial.deck_probabilities
-    //             ? false
-    //             : true; // if probabilities are different, reversal occurred (= true)
-    //     console.log("Reversal? "+data.reversal_type); 
-    // } else {
-    //     data.reversal_type = false; // first trial reversal always undefined
-    //     console.log("Previous trial undefined");
-    // }
-
     const deck = jsPsych.data.get().filterCustom(t => t.deck_probabilities !== undefined)
         .select("deck_probabilities")
         .values;

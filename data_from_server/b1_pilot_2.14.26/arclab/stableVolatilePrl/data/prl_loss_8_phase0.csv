@@ -1,0 +1,178 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","stim_order","rt","stimulus","response","workerId","interview_date","handedness","version","difficulty","stimulus_set","selected_stim","index","deck_probabilities","key_press","reward_type","reversal_type","reward_tally","phase","total_earnings"
+"true","false","[]","[]","[]","preload","0","140","0.0-0.0","[""dog"",""cat"",""rabbit""]","","","","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","10317","0.0-1.0","[""dog"",""cat"",""rabbit""]","10177","
+        <div style=""background-color:red; padding:10px "">
+        <p style=""color:white"">Welcome to the experiment!</p>
+        <p style=""color:white"">Press any key to begin.</p>
+        </div>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","2","12652","0.0-2.0","[""dog"",""cat"",""rabbit""]","2333","
+        <p>You will now play several rounds of a game.</p> 
+        <p>You will be given a starting pool of <b> 8000 </b> points and your goal is to avoid losing points during the rounds.</p>
+        <p>Please press the zero (0) key to continue.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","3","14058","0.0-3.0","[""dog"",""cat"",""rabbit""]","1405","
+        <p>Your points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points, so please do your best. </p> 
+        <p>You can earn a maximum bonus of <b> $4 </b> at the end of these rounds.</p> 
+        <p>Please press the zero (0) key to continue.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","4","19300","0.0-4.0","[""dog"",""cat"",""rabbit""]","5240","
+        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
+        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to pick the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice selecting an animal.</p>
+        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>","1","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","5","20145","0.0-5.0","[""dog"",""cat"",""rabbit""]","844","
+        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>","2","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","6","20912","0.0-6.0","[""dog"",""cat"",""rabbit""]","764","
+        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>","3","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","7","25108","0.0-7.0","[""dog"",""cat"",""rabbit""]","4194","
+        <p>Good job! You have successfully practiced selecting animals.</p>
+        <p>Some animals lead to a better outcome than others.</p>
+        <p>An animal can either take away <b> -50 </b> points or allow you to <b> keep </b> points.</p>
+        <p>Below you can see what those outcomes look like:</p>
+        <div class='outcome-container'>
+        <img class='outcome-right' src='stim/loss/outcome/squared_lose.png'>
+        <img class='outcome-left' src='stim/loss/outcome/squared_win.png'>;
+        </div>
+        <p>Please press the zero (0) key to continue.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","8","29725","0.0-8.0","[""dog"",""cat"",""rabbit""]","4616","
+        <p>Your job is to figure out which animal is the best choice, so that you can keep as many points as possible.</p>
+        <p>Your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points at the end of the game.</p>
+        <p>Please press the zero (0) key to continue.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","9","59695","0.0-9.0","[""dog"",""cat"",""rabbit""]","29969","
+        <p>However, there is one final catch:</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
+        <p>Please press the zero (0) key to continue.","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","10","61074","0.0-10.0","[""dog"",""cat"",""rabbit""]","1378","
+        <p>The following is a practice round of just 3 turns.<p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        <p>Please press the zero (0) key to start the practice round.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","11","61575","0.0-11.0-0.0","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","12","62457","0.0-11.0-1.0","[""dog"",""cat"",""rabbit""]","880","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","2","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","13","63459","0.0-11.0-2.0","[""dog"",""cat"",""rabbit""]","null","
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                    <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>    
+                    <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+                </div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","14","63963","0.0-11.0-0.1","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","15","80292","0.0-11.0-1.1","[""dog"",""cat"",""rabbit""]","16326","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","1","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","16","81296","0.0-11.0-2.1","[""dog"",""cat"",""rabbit""]","null","
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                    <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                    <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+                </div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","17","81798","0.0-11.0-0.2","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","18","87684","0.0-11.0-1.2","[""dog"",""cat"",""rabbit""]","5884","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","3","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","19","88687","0.0-11.0-2.2","[""dog"",""cat"",""rabbit""]","null","
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                    <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                    <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+                </div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","20","119571","0.0-12.0","[""dog"",""cat"",""rabbit""]","30882","
+        <p>You have now completed the practice round.</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes</p>
+        <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select animals.</p>
+        <p>As a reminder, your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points at the end of the game.</p>
+        <p>Please press the zero (0) key whenever you are ready to start the task.</p>","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","21","120073","0.0-13.0-0.0","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","22","121010","0.0-13.0-1.0","[""dog"",""cat"",""rabbit""]","936","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","2","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","23","122014","0.0-13.0-2.0","[""dog"",""cat"",""rabbit""]","936","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","2","8","02/12/2026","right","loss","stable-stable","8","cat","1","[0.8,0.2,0.4]","50","false","false","-50","0",""
+"","","","","","html-keyboard-response","24","124747","0.0-13.0-3.0-0.0","[""dog"",""cat"",""rabbit""]","2731","You are 25% done with the experiment. Please press the (0) key to proceed.","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","25","125250","0.0-13.0-0.1","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","26","139228","0.0-13.0-1.1","[""dog"",""cat"",""rabbit""]","13975","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","3","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","27","140232","0.0-13.0-2.1","[""dog"",""cat"",""rabbit""]","13975","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>","3","8","02/12/2026","right","loss","stable-stable","8","rabbit","2","[0.8,0.2,0.4]","51","false","false","-100","0",""
+"","","","","","html-keyboard-response","28","152131","0.0-13.0-3.1-0.1","[""dog"",""cat"",""rabbit""]","11897","You are 50% done with the experiment. Please press the (0) key to proceed.","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","29","152633","0.0-13.0-0.2","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","30","155226","0.0-13.0-1.2","[""dog"",""cat"",""rabbit""]","2591","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","1","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","31","156231","0.0-13.0-2.2","[""dog"",""cat"",""rabbit""]","2591","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","1","8","02/12/2026","right","loss","stable-stable","8","dog","3","[0.4,0.8,0.2]","49","false","false","-150","0",""
+"","","","","","html-keyboard-response","32","267007","0.0-13.0-3.2-0.2","[""dog"",""cat"",""rabbit""]","110772","You are 75% done with the experiment. Please press the (0) key to proceed.","0","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","33","267509","0.0-13.0-0.3","[""dog"",""cat"",""rabbit""]","null","<div style='font-size:40px'>+</div>","null","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","34","268521","0.0-13.0-1.3","[""dog"",""cat"",""rabbit""]","1009","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","1","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","35","269525","0.0-13.0-2.3","[""dog"",""cat"",""rabbit""]","1009","
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>","1","8","02/12/2026","right","loss","stable-stable","8","dog","4","[0.4,0.8,0.2]","49","true","false","-150","0",""
+"","","","","","html-keyboard-response","36","274529","0.0-14.0","[""dog"",""cat"",""rabbit""]","null","
+<div class='data-save-animation'>
+    <p>Data saving...</p>
+    <div class=""sk-cube-grid"">
+        <div class=""sk-cube sk-cube1""></div>
+        <div class=""sk-cube sk-cube2""></div>
+        <div class=""sk-cube sk-cube3""></div>
+        <div class=""sk-cube sk-cube4""></div>
+        <div class=""sk-cube sk-cube5""></div>
+        <div class=""sk-cube sk-cube6""></div>
+        <div class=""sk-cube sk-cube7""></div>
+        <div class=""sk-cube sk-cube8""></div>
+        <div class=""sk-cube sk-cube9""></div>
+    </div>
+    <p>Do not close this window until the text disappears.</p>
+</div>","null","","","","","","","","","","","","","","","$3.92"
