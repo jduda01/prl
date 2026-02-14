@@ -131,7 +131,7 @@ function feedbackLogic(data) {
         console.log(stim_order)
 
     // save which stimulus was selected based on the response (JD added 1/29/26)
-    selected_stim = stim_order[response - 1];
+    let selected_stim = stim_order[response - 1];
         console.log(selected_stim)
     data.selected_stim = selected_stim;
     data.index = trialIterator;

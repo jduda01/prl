@@ -98,8 +98,10 @@ const urlConfig = {
     // },
 
     //If running just loss, uncomment the following lines
+    loss: {
         0: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         1: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         2: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
         3: "https://yalesurvey.ca1.qualtrics.com/jfe/form/SV_bymyWUKFinbQkFE", // questionnaires
+        },
 }
