@@ -81,7 +81,7 @@ function businessLogic() {
         observedOutcome = `stim/${version}/outcome/squared_lose.png`; 
         win = false;
     }
-    console.log("win? "+win) // Print outcome to console
+    // console.log("win? "+win) // Print outcome to console
 
 
     // calculates total points earned
@@ -127,11 +127,11 @@ function feedbackLogic(data) {
 
     // add stimulus order and shorten name for readability
     jsPsych.data.addProperties({ stim_order });
-        console.log(stim_order)
+        // console.log(stim_order)
 
     // save which stimulus was selected based on the response (JD added 1/29/26)
     let selected_stim = stim_order[response - 1];
-        console.log(selected_stim)
+        // console.log(selected_stim)
     data.selected_stim = selected_stim;
     data.index = trialIterator;
     data.deck_probabilities = currentProbability.join(",");
