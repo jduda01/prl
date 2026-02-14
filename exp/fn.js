@@ -135,30 +135,43 @@ function feedbackLogic(data) {
         console.log(selected_stim)
     data.selected_stim = selected_stim;
     data.index = trialIterator;
-    data.deck_probabilities = `[${String(currentProbability)}]`;
+    data.deck_probabilities = currentProbability.join(",");
     data.response = response;
     data.rt = rt;
     data.key_press =
         response == 1 ? 49 : response == 2 ? 50 : response == 3 ? 51 : null;
     data.reward_type = win;
 
-    // initialize constants to represent trials that we are comparing
-    const previousTrial = jsPsych.data.get().last(4).values()[0]; //  previous trial (.last(4))
-    const currentTrial = jsPsych.data.get().last(1).values()[0]; // current trial (.last(1))
+    // // initialize constants to represent trials that we are comparing
+    // const previousTrial = jsPsych.data.get().last(4).values()[0]; //  previous trial (.last(4))
+    // const currentTrial = jsPsych.data.get().last(1).values()[0]; // current trial (.last(1))
 
-    // check if the deck probabilities on current and previous trials are the same
-    if (previousTrial.index !== undefined) {
-        // compare previous and current trials after the first trial
-        data.reversal_type =
-            previousTrial.deck_probabilities === currentTrial.deck_probabilities
-                ? false
-                : true; // if probabilities are different, reversal occurred (= true)
-        console.log("Reversal? "+data.reversal_type); 
-    } else {
-        data.reversal_type = false; // first trial reversal always undefined
-        console.log("Reversal? "+data.reversal_type);
-    }
-    
+    // // JD temporarily added to see last six rows of output
+    // console.log("---- LAST 6 ROWS ----");
+    // jsPsych.data.get().last(6).values().forEach((row, i) => {
+    //     console.log("Row -" + (6 - i), row);});
+    // console.log("----------------------");
+    // // check if the deck probabilities on current and previous trials are the same
+    // if (previousTrial.index !== undefined) {
+    //     // compare previous and current trials after the first trial
+    //     data.reversal_type =
+    //         previousTrial.deck_probabilities === currentTrial.deck_probabilities
+    //             ? false
+    //             : true; // if probabilities are different, reversal occurred (= true)
+    //     console.log("Reversal? "+data.reversal_type); 
+    // } else {
+    //     data.reversal_type = false; // first trial reversal always undefined
+    //     console.log("Previous trial undefined");
+    // }
+
+    const deck = jsPsych.data.get().filterCustom(t => t.deck_probabilities !== undefined)
+        .select("deck_probabilities")
+        .values;
+
+    data.reversal_type = deck.length > 1 && deck.at(-2) !== deck.at(-1);
+    console.log("Deck history:", deck);
+    console.log("Deck reversal? "+data.reversal_type)
+
     data.reward_tally = score;
     data.phase = phase;
 }

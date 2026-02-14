@@ -107,7 +107,7 @@ switch (version) {
 
         var english10 = `
         <p>You have now completed the practice round.</p>
-        <p>You will now begin the main task, which will take approximately 10 minutes</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes.</p>
         <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select animals.</p>
         <p>As a reminder, your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
@@ -210,7 +210,7 @@ switch (version) {
 
         var english10 = `
         <p>You have now completed the practice round.</p>
-        <p>You will now begin the main task, which will take approximately 10 minutes</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes.</p>
         <p>You will be given an opportunity to gain points as you select animals.</p>
         <p>As a reminder, your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
