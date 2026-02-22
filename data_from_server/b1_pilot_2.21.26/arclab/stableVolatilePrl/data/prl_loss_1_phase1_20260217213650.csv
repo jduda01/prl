@@ -1,0 +1,2206 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,time_elapsed,internal_node_id,stim_order,rt,stimulus,response,participantId,interview_date,handedness,version,phase,difficulty,stimulus_set,selected_stim,index,deck_probabilities,key_press,reward_type,reversal_type,reward_tally,total_earnings,
+TRUE,FALSE,[],[],[],preload,0,204,0.0-0.0,"[""cat"",""dog"",""rabbit""]",,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,1,7385,0.0-1.0,"[""cat"",""dog"",""rabbit""]",7180,"
+        <div style=""background-color:red; padding:10px "">
+        <p style=""color:white"">Welcome to the experiment!</p>
+        <p style=""color:white"">Press any key to begin.</p>
+        </div>",s,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,2,17339,0.0-2.0,"[""cat"",""dog"",""rabbit""]",9953,"
+        <p>You will now play several rounds of a game.</p> 
+        <p>You will be given a starting pool of <b> 8000 </b> points and your goal is to avoid losing points during the rounds.</p>
+        <p>Please press the zero (0) key to continue.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,3,41446,0.0-3.0,"[""cat"",""dog"",""rabbit""]",24106,"
+        <p>Your points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points, so please do your best. </p> 
+        <p>You can earn a maximum bonus of <b> $4 </b> at the end of these rounds.</p> 
+        <p>Please press the zero (0) key to continue.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,4,60172,0.0-4.0,"[""cat"",""dog"",""rabbit""]",18724,"
+        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
+        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to pick the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
+        <p>Let's practice selecting an animal.</p>
+        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,5,62443,0.0-5.0,"[""cat"",""dog"",""rabbit""]",2269,"
+        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,6,65278,0.0-6.0,"[""cat"",""dog"",""rabbit""]",2833,"
+        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <div class='image-container'>
+            <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+            <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+            <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+        </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,7,74563,0.0-7.0,"[""cat"",""dog"",""rabbit""]",9282,"
+        <p>Good job! You have successfully practiced selecting animals.</p>
+        <p>Some animals lead to a better outcome than others.</p>
+        <p>An animal can either take away <b> -50 </b> points or allow you to <b> keep </b> points.</p>
+        <p>Below you can see what those outcomes look like:</p>
+        <div class='outcome-container'>
+        <img class='outcome-right' src='stim/loss/outcome/squared_lose.png'>
+        <img class='outcome-left' src='stim/loss/outcome/squared_win.png'>;
+        </div>
+        <p>Please press the zero (0) key to continue.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,8,80522,0.0-8.0,"[""cat"",""dog"",""rabbit""]",5958,"
+        <p>Your job is to figure out which animal is the best choice, so that you can keep as many points as possible.</p>
+        <p>Your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points at the end of the game.</p>
+        <p>Please press the zero (0) key to continue.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,9,86908,0.0-9.0,"[""cat"",""dog"",""rabbit""]",6386,"
+        <p>However, there is one final catch:</p>
+        <p><b>There may be times when the best animal will change!</b></p>
+        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
+        <p>Please press the zero (0) key to continue.",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,10,94395,0.0-10.0,"[""cat"",""dog"",""rabbit""]",7486,"
+        <p>The following is a practice round of just 3 turns.<p>
+        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        <p>Please press the zero (0) key to start the practice round.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,11,94897,0.0-11.0-0.0,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,12,100916,0.0-11.0-1.0,"[""cat"",""dog"",""rabbit""]",6017,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,13,101920,0.0-11.0-2.0,"[""cat"",""dog"",""rabbit""]",null,"
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                    <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>    
+                    <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+                </div>",null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,14,102422,0.0-11.0-0.1,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,15,106980,0.0-11.0-1.1,"[""cat"",""dog"",""rabbit""]",4555,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,16,107983,0.0-11.0-2.1,"[""cat"",""dog"",""rabbit""]",null,"
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                    <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                    <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+                </div>",null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,17,108485,0.0-11.0-0.2,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,18,110195,0.0-11.0-1.2,"[""cat"",""dog"",""rabbit""]",1707,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,19,111198,0.0-11.0-2.2,"[""cat"",""dog"",""rabbit""]",null,"
+                <div class='image-container'>
+                    <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                    <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                    <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+                </div>",null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,20,121178,0.0-12.0,"[""cat"",""dog"",""rabbit""]",9979,"
+        <p>You have now completed the practice round.</p>
+        <p>You will now begin the main task, which will take approximately 10 minutes.</p>
+        <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select animals.</p>
+        <p>As a reminder, your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> 2000 </b> points at the end of the game.</p>
+        <p>Please press the zero (0) key whenever you are ready to start the task.</p>",0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,21,121680,0.0-13.0-0.0,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,22,123942,0.0-13.0-1.0,"[""cat"",""dog"",""rabbit""]",2260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,23,124946,0.0-13.0-2.0,"[""cat"",""dog"",""rabbit""]",2260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,1,"0.4,0.2,0.8",50,FALSE,FALSE,-50,,1
+,,,,,html-keyboard-response,24,125449,0.0-13.0-0.1,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,25,127081,0.0-13.0-1.1,"[""cat"",""dog"",""rabbit""]",1630,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,26,128083,0.0-13.0-2.1,"[""cat"",""dog"",""rabbit""]",1630,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,2,"0.4,0.2,0.8",50,FALSE,FALSE,-100,,1
+,,,,,html-keyboard-response,27,128585,0.0-13.0-0.2,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,28,129431,0.0-13.0-1.2,"[""cat"",""dog"",""rabbit""]",844,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,29,130434,0.0-13.0-2.2,"[""cat"",""dog"",""rabbit""]",844,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,3,"0.4,0.2,0.8",49,FALSE,FALSE,-150,,1
+,,,,,html-keyboard-response,30,130937,0.0-13.0-0.3,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,31,131488,0.0-13.0-1.3,"[""cat"",""dog"",""rabbit""]",550,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,32,132492,0.0-13.0-2.3,"[""cat"",""dog"",""rabbit""]",550,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,4,"0.4,0.2,0.8",51,TRUE,FALSE,-150,,1
+,,,,,html-keyboard-response,33,132994,0.0-13.0-0.4,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,34,133884,0.0-13.0-1.4,"[""cat"",""dog"",""rabbit""]",888,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,35,134887,0.0-13.0-2.4,"[""cat"",""dog"",""rabbit""]",888,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,5,"0.4,0.2,0.8",51,TRUE,FALSE,-150,,1
+,,,,,html-keyboard-response,36,135390,0.0-13.0-0.5,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,37,136653,0.0-13.0-1.5,"[""cat"",""dog"",""rabbit""]",1261,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,38,137656,0.0-13.0-2.5,"[""cat"",""dog"",""rabbit""]",1261,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,6,"0.4,0.2,0.8",51,TRUE,FALSE,-150,,1
+,,,,,html-keyboard-response,39,138158,0.0-13.0-0.6,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,40,139715,0.0-13.0-1.6,"[""cat"",""dog"",""rabbit""]",1554,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,41,140718,0.0-13.0-2.6,"[""cat"",""dog"",""rabbit""]",1554,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,7,"0.4,0.2,0.8",51,FALSE,FALSE,-200,,1
+,,,,,html-keyboard-response,42,141220,0.0-13.0-0.7,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,43,142443,0.0-13.0-1.7,"[""cat"",""dog"",""rabbit""]",1220,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,44,143446,0.0-13.0-2.7,"[""cat"",""dog"",""rabbit""]",1220,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,8,"0.4,0.2,0.8",50,FALSE,FALSE,-250,,1
+,,,,,html-keyboard-response,45,143948,0.0-13.0-0.8,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,46,144852,0.0-13.0-1.8,"[""cat"",""dog"",""rabbit""]",902,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,47,145855,0.0-13.0-2.8,"[""cat"",""dog"",""rabbit""]",902,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,9,"0.4,0.2,0.8",49,TRUE,FALSE,-250,,1
+,,,,,html-keyboard-response,48,146357,0.0-13.0-0.9,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,49,147700,0.0-13.0-1.9,"[""cat"",""dog"",""rabbit""]",1341,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,50,148702,0.0-13.0-2.9,"[""cat"",""dog"",""rabbit""]",1341,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,10,"0.4,0.2,0.8",49,FALSE,FALSE,-300,,1
+,,,,,html-keyboard-response,51,149204,0.0-13.0-0.10,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,52,149668,0.0-13.0-1.10,"[""cat"",""dog"",""rabbit""]",461,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,53,150671,0.0-13.0-2.10,"[""cat"",""dog"",""rabbit""]",461,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,11,"0.4,0.2,0.8",51,FALSE,FALSE,-350,,1
+,,,,,html-keyboard-response,54,151173,0.0-13.0-0.11,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,55,151891,0.0-13.0-1.11,"[""cat"",""dog"",""rabbit""]",716,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,56,152893,0.0-13.0-2.11,"[""cat"",""dog"",""rabbit""]",716,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,12,"0.4,0.2,0.8",50,FALSE,FALSE,-400,,1
+,,,,,html-keyboard-response,57,153394,0.0-13.0-0.12,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,58,153759,0.0-13.0-1.12,"[""cat"",""dog"",""rabbit""]",362,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,59,154762,0.0-13.0-2.12,"[""cat"",""dog"",""rabbit""]",362,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,13,"0.4,0.2,0.8",51,FALSE,FALSE,-450,,1
+,,,,,html-keyboard-response,60,155263,0.0-13.0-0.13,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,61,156119,0.0-13.0-1.13,"[""cat"",""dog"",""rabbit""]",852,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,62,157123,0.0-13.0-2.13,"[""cat"",""dog"",""rabbit""]",852,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,14,"0.4,0.2,0.8",49,TRUE,FALSE,-450,,1
+,,,,,html-keyboard-response,63,157625,0.0-13.0-0.14,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,64,158674,0.0-13.0-1.14,"[""cat"",""dog"",""rabbit""]",1047,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,65,159678,0.0-13.0-2.14,"[""cat"",""dog"",""rabbit""]",1047,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,15,"0.4,0.2,0.8",50,FALSE,FALSE,-500,,1
+,,,,,html-keyboard-response,66,160180,0.0-13.0-0.15,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,67,160518,0.0-13.0-1.15,"[""cat"",""dog"",""rabbit""]",336,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,68,161521,0.0-13.0-2.15,"[""cat"",""dog"",""rabbit""]",336,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,16,"0.4,0.2,0.8",49,FALSE,FALSE,-550,,1
+,,,,,html-keyboard-response,69,162023,0.0-13.0-0.16,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,70,162302,0.0-13.0-1.16,"[""cat"",""dog"",""rabbit""]",277,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,71,163305,0.0-13.0-2.16,"[""cat"",""dog"",""rabbit""]",277,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,17,"0.4,0.2,0.8",51,TRUE,FALSE,-550,,1
+,,,,,html-keyboard-response,72,163806,0.0-13.0-0.17,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,73,164644,0.0-13.0-1.17,"[""cat"",""dog"",""rabbit""]",836,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,74,165647,0.0-13.0-2.17,"[""cat"",""dog"",""rabbit""]",836,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,18,"0.4,0.2,0.8",51,FALSE,FALSE,-600,,1
+,,,,,html-keyboard-response,75,166149,0.0-13.0-0.18,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,76,167427,0.0-13.0-1.18,"[""cat"",""dog"",""rabbit""]",986,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,77,168430,0.0-13.0-2.18,"[""cat"",""dog"",""rabbit""]",986,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,19,"0.4,0.2,0.8",50,TRUE,FALSE,-600,,1
+,,,,,html-keyboard-response,78,168932,0.0-13.0-0.19,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,79,173873,0.0-13.0-1.19,"[""cat"",""dog"",""rabbit""]",4939,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,80,174876,0.0-13.0-2.19,"[""cat"",""dog"",""rabbit""]",4939,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,20,"0.4,0.2,0.8",50,TRUE,FALSE,-600,,1
+,,,,,html-keyboard-response,81,175378,0.0-13.0-0.20,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,82,176379,0.0-13.0-1.20,"[""cat"",""dog"",""rabbit""]",998,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,83,177382,0.0-13.0-2.20,"[""cat"",""dog"",""rabbit""]",998,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,21,"0.4,0.2,0.8",50,FALSE,FALSE,-650,,1
+,,,,,html-keyboard-response,84,177883,0.0-13.0-0.21,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,85,178241,0.0-13.0-1.21,"[""cat"",""dog"",""rabbit""]",355,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,86,179244,0.0-13.0-2.21,"[""cat"",""dog"",""rabbit""]",355,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,22,"0.4,0.2,0.8",49,TRUE,FALSE,-650,,1
+,,,,,html-keyboard-response,87,179746,0.0-13.0-0.22,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,88,180610,0.0-13.0-1.22,"[""cat"",""dog"",""rabbit""]",862,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,89,181613,0.0-13.0-2.22,"[""cat"",""dog"",""rabbit""]",862,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,23,"0.4,0.2,0.8",50,FALSE,FALSE,-700,,1
+,,,,,html-keyboard-response,90,182115,0.0-13.0-0.23,"[""cat"",""dog"",""rabbit""]",327,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,91,182581,0.0-13.0-1.23,"[""cat"",""dog"",""rabbit""]",464,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,92,183584,0.0-13.0-2.23,"[""cat"",""dog"",""rabbit""]",464,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,24,"0.4,0.2,0.8",51,TRUE,FALSE,-700,,1
+,,,,,html-keyboard-response,93,184086,0.0-13.0-0.24,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,94,184425,0.0-13.0-1.24,"[""cat"",""dog"",""rabbit""]",337,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,95,185428,0.0-13.0-2.24,"[""cat"",""dog"",""rabbit""]",337,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,25,"0.4,0.2,0.8",51,TRUE,FALSE,-700,,1
+,,,,,html-keyboard-response,96,185930,0.0-13.0-0.25,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,97,186284,0.0-13.0-1.25,"[""cat"",""dog"",""rabbit""]",352,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,98,187287,0.0-13.0-2.25,"[""cat"",""dog"",""rabbit""]",352,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,26,"0.4,0.2,0.8",49,FALSE,FALSE,-750,,1
+,,,,,html-keyboard-response,99,187789,0.0-13.0-0.26,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,100,188084,0.0-13.0-1.26,"[""cat"",""dog"",""rabbit""]",293,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,101,189087,0.0-13.0-2.26,"[""cat"",""dog"",""rabbit""]",293,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,27,"0.4,0.2,0.8",50,FALSE,FALSE,-800,,1
+,,,,,html-keyboard-response,102,189589,0.0-13.0-0.27,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,103,189883,0.0-13.0-1.27,"[""cat"",""dog"",""rabbit""]",293,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,104,190886,0.0-13.0-2.27,"[""cat"",""dog"",""rabbit""]",293,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,28,"0.4,0.2,0.8",51,TRUE,FALSE,-800,,1
+,,,,,html-keyboard-response,105,191389,0.0-13.0-0.28,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,106,191631,0.0-13.0-1.28,"[""cat"",""dog"",""rabbit""]",240,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,107,192634,0.0-13.0-2.28,"[""cat"",""dog"",""rabbit""]",240,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,29,"0.4,0.2,0.8",51,TRUE,FALSE,-800,,1
+,,,,,html-keyboard-response,108,193136,0.0-13.0-0.29,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,109,193423,0.0-13.0-1.29,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,110,194426,0.0-13.0-2.29,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,30,"0.4,0.2,0.8",51,TRUE,FALSE,-800,,1
+,,,,,html-keyboard-response,111,194929,0.0-13.0-0.30,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,112,195403,0.0-13.0-1.30,"[""cat"",""dog"",""rabbit""]",471,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,113,196406,0.0-13.0-2.30,"[""cat"",""dog"",""rabbit""]",471,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,31,"0.4,0.2,0.8",51,FALSE,FALSE,-850,,1
+,,,,,html-keyboard-response,114,196908,0.0-13.0-0.31,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,115,197282,0.0-13.0-1.31,"[""cat"",""dog"",""rabbit""]",372,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,116,198285,0.0-13.0-2.31,"[""cat"",""dog"",""rabbit""]",372,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,32,"0.4,0.2,0.8",51,FALSE,FALSE,-900,,1
+,,,,,html-keyboard-response,117,198787,0.0-13.0-0.32,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,118,199063,0.0-13.0-1.32,"[""cat"",""dog"",""rabbit""]",274,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,119,200067,0.0-13.0-2.32,"[""cat"",""dog"",""rabbit""]",274,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,33,"0.4,0.2,0.8",51,FALSE,FALSE,-950,,1
+,,,,,html-keyboard-response,120,200569,0.0-13.0-0.33,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,121,200893,0.0-13.0-1.33,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,122,201896,0.0-13.0-2.33,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,34,"0.4,0.8,0.2",51,FALSE,TRUE,-1000,,1
+,,,,,html-keyboard-response,123,202397,0.0-13.0-0.34,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,124,202625,0.0-13.0-1.34,"[""cat"",""dog"",""rabbit""]",227,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,125,203629,0.0-13.0-2.34,"[""cat"",""dog"",""rabbit""]",227,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,35,"0.4,0.8,0.2",51,FALSE,FALSE,-1050,,1
+,,,,,html-keyboard-response,126,204131,0.0-13.0-0.35,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,127,204469,0.0-13.0-1.35,"[""cat"",""dog"",""rabbit""]",336,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,128,205472,0.0-13.0-2.35,"[""cat"",""dog"",""rabbit""]",336,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,36,"0.4,0.8,0.2",51,FALSE,FALSE,-1100,,1
+,,,,,html-keyboard-response,129,205974,0.0-13.0-0.36,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,130,206258,0.0-13.0-1.36,"[""cat"",""dog"",""rabbit""]",282,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,131,207261,0.0-13.0-2.36,"[""cat"",""dog"",""rabbit""]",282,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,37,"0.4,0.8,0.2",51,FALSE,FALSE,-1150,,1
+,,,,,html-keyboard-response,132,207763,0.0-13.0-0.37,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,133,208193,0.0-13.0-1.37,"[""cat"",""dog"",""rabbit""]",428,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,134,209196,0.0-13.0-2.37,"[""cat"",""dog"",""rabbit""]",428,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,38,"0.4,0.8,0.2",51,FALSE,FALSE,-1200,,1
+,,,,,html-keyboard-response,135,209698,0.0-13.0-0.38,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,136,210022,0.0-13.0-1.38,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,137,211025,0.0-13.0-2.38,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,39,"0.4,0.8,0.2",50,TRUE,FALSE,-1200,,1
+,,,,,html-keyboard-response,138,211527,0.0-13.0-0.39,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,139,211843,0.0-13.0-1.39,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,140,212845,0.0-13.0-2.39,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,40,"0.4,0.8,0.2",50,FALSE,FALSE,-1250,,1
+,,,,,html-keyboard-response,141,220336,0.0-13.0-3.39-0.39,"[""cat"",""dog"",""rabbit""]",7490,You are 25% done with the experiment. Please press the (0) key to proceed.,0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,142,220838,0.0-13.0-0.40,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,143,222468,0.0-13.0-1.40,"[""cat"",""dog"",""rabbit""]",1628,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,144,223470,0.0-13.0-2.40,"[""cat"",""dog"",""rabbit""]",1628,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,41,"0.4,0.8,0.2",51,FALSE,FALSE,-1300,,1
+,,,,,html-keyboard-response,145,223972,0.0-13.0-0.41,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,146,224496,0.0-13.0-1.41,"[""cat"",""dog"",""rabbit""]",522,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,147,225499,0.0-13.0-2.41,"[""cat"",""dog"",""rabbit""]",522,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,42,"0.4,0.8,0.2",50,TRUE,FALSE,-1300,,1
+,,,,,html-keyboard-response,148,226000,0.0-13.0-0.42,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,149,226230,0.0-13.0-1.42,"[""cat"",""dog"",""rabbit""]",228,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,150,227233,0.0-13.0-2.42,"[""cat"",""dog"",""rabbit""]",228,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,43,"0.4,0.8,0.2",50,TRUE,FALSE,-1300,,1
+,,,,,html-keyboard-response,151,227735,0.0-13.0-0.43,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,152,227982,0.0-13.0-1.43,"[""cat"",""dog"",""rabbit""]",245,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,153,228985,0.0-13.0-2.43,"[""cat"",""dog"",""rabbit""]",245,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,44,"0.4,0.8,0.2",50,FALSE,FALSE,-1350,,1
+,,,,,html-keyboard-response,154,229487,0.0-13.0-0.44,"[""cat"",""dog"",""rabbit""]",449,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,155,229983,0.0-13.0-1.44,"[""cat"",""dog"",""rabbit""]",494,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,156,230986,0.0-13.0-2.44,"[""cat"",""dog"",""rabbit""]",494,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,45,"0.4,0.8,0.2",51,FALSE,FALSE,-1400,,1
+,,,,,html-keyboard-response,157,231488,0.0-13.0-0.45,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,158,231905,0.0-13.0-1.45,"[""cat"",""dog"",""rabbit""]",416,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,159,232909,0.0-13.0-2.45,"[""cat"",""dog"",""rabbit""]",416,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,46,"0.4,0.8,0.2",49,TRUE,FALSE,-1400,,1
+,,,,,html-keyboard-response,160,233411,0.0-13.0-0.46,"[""cat"",""dog"",""rabbit""]",464,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,161,235314,0.0-13.0-1.46,"[""cat"",""dog"",""rabbit""]",1694,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,162,236317,0.0-13.0-2.46,"[""cat"",""dog"",""rabbit""]",1694,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,47,"0.4,0.8,0.2",50,TRUE,FALSE,-1400,,1
+,,,,,html-keyboard-response,163,236819,0.0-13.0-0.47,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,164,237122,0.0-13.0-1.47,"[""cat"",""dog"",""rabbit""]",301,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,165,238126,0.0-13.0-2.47,"[""cat"",""dog"",""rabbit""]",301,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,48,"0.4,0.8,0.2",49,FALSE,FALSE,-1450,,1
+,,,,,html-keyboard-response,166,238628,0.0-13.0-0.48,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,167,238810,0.0-13.0-1.48,"[""cat"",""dog"",""rabbit""]",180,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,168,239813,0.0-13.0-2.48,"[""cat"",""dog"",""rabbit""]",180,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,49,"0.4,0.8,0.2",50,TRUE,FALSE,-1450,,1
+,,,,,html-keyboard-response,169,240315,0.0-13.0-0.49,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,170,240621,0.0-13.0-1.49,"[""cat"",""dog"",""rabbit""]",304,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,171,241623,0.0-13.0-2.49,"[""cat"",""dog"",""rabbit""]",304,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,50,"0.4,0.8,0.2",50,TRUE,FALSE,-1450,,1
+,,,,,html-keyboard-response,172,242125,0.0-13.0-0.50,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,173,242449,0.0-13.0-1.50,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,174,243452,0.0-13.0-2.50,"[""cat"",""dog"",""rabbit""]",322,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,51,"0.4,0.8,0.2",50,FALSE,FALSE,-1500,,1
+,,,,,html-keyboard-response,175,243955,0.0-13.0-0.51,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,176,318181,0.0-13.0-1.51,"[""cat"",""dog"",""rabbit""]",74224,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,177,319185,0.0-13.0-2.51,"[""cat"",""dog"",""rabbit""]",74224,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,52,"0.4,0.8,0.2",51,TRUE,FALSE,-1500,,1
+,,,,,html-keyboard-response,178,319687,0.0-13.0-0.52,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,179,320222,0.0-13.0-1.52,"[""cat"",""dog"",""rabbit""]",533,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,180,321225,0.0-13.0-2.52,"[""cat"",""dog"",""rabbit""]",533,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,53,"0.4,0.8,0.2",51,FALSE,FALSE,-1550,,1
+,,,,,html-keyboard-response,181,321727,0.0-13.0-0.53,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,182,321959,0.0-13.0-1.53,"[""cat"",""dog"",""rabbit""]",230,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,183,322962,0.0-13.0-2.53,"[""cat"",""dog"",""rabbit""]",230,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,54,"0.4,0.8,0.2",50,TRUE,FALSE,-1550,,1
+,,,,,html-keyboard-response,184,323464,0.0-13.0-0.54,"[""cat"",""dog"",""rabbit""]",319,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,185,323776,0.0-13.0-1.54,"[""cat"",""dog"",""rabbit""]",310,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,186,324779,0.0-13.0-2.54,"[""cat"",""dog"",""rabbit""]",310,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,55,"0.4,0.8,0.2",49,FALSE,FALSE,-1600,,1
+,,,,,html-keyboard-response,187,325280,0.0-13.0-0.55,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,188,325549,0.0-13.0-1.55,"[""cat"",""dog"",""rabbit""]",267,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,189,326553,0.0-13.0-2.55,"[""cat"",""dog"",""rabbit""]",267,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,56,"0.4,0.8,0.2",50,FALSE,FALSE,-1650,,1
+,,,,,html-keyboard-response,190,327055,0.0-13.0-0.56,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,191,327622,0.0-13.0-1.56,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,192,328624,0.0-13.0-2.56,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,57,"0.4,0.8,0.2",51,TRUE,FALSE,-1650,,1
+,,,,,html-keyboard-response,193,329126,0.0-13.0-0.57,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,194,329354,0.0-13.0-1.57,"[""cat"",""dog"",""rabbit""]",226,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,195,330357,0.0-13.0-2.57,"[""cat"",""dog"",""rabbit""]",226,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,58,"0.4,0.8,0.2",51,FALSE,FALSE,-1700,,1
+,,,,,html-keyboard-response,196,330859,0.0-13.0-0.58,"[""cat"",""dog"",""rabbit""]",331,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,197,331178,0.0-13.0-1.58,"[""cat"",""dog"",""rabbit""]",318,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,198,332181,0.0-13.0-2.58,"[""cat"",""dog"",""rabbit""]",318,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,59,"0.4,0.8,0.2",50,TRUE,FALSE,-1700,,1
+,,,,,html-keyboard-response,199,332683,0.0-13.0-0.59,"[""cat"",""dog"",""rabbit""]",289,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,200,333020,0.0-13.0-1.59,"[""cat"",""dog"",""rabbit""]",334,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,201,334023,0.0-13.0-2.59,"[""cat"",""dog"",""rabbit""]",334,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,60,"0.4,0.8,0.2",51,FALSE,FALSE,-1750,,1
+,,,,,html-keyboard-response,202,334524,0.0-13.0-0.60,"[""cat"",""dog"",""rabbit""]",183,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,203,334760,0.0-13.0-1.60,"[""cat"",""dog"",""rabbit""]",234,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,204,335764,0.0-13.0-2.60,"[""cat"",""dog"",""rabbit""]",234,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,61,"0.4,0.8,0.2",50,FALSE,FALSE,-1800,,1
+,,,,,html-keyboard-response,205,336266,0.0-13.0-0.61,"[""cat"",""dog"",""rabbit""]",282,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,206,336610,0.0-13.0-1.61,"[""cat"",""dog"",""rabbit""]",342,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,207,337613,0.0-13.0-2.61,"[""cat"",""dog"",""rabbit""]",342,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,62,"0.4,0.8,0.2",49,FALSE,FALSE,-1850,,1
+,,,,,html-keyboard-response,208,338115,0.0-13.0-0.62,"[""cat"",""dog"",""rabbit""]",275,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,209,338469,0.0-13.0-1.62,"[""cat"",""dog"",""rabbit""]",352,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,210,339472,0.0-13.0-2.62,"[""cat"",""dog"",""rabbit""]",352,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,63,"0.4,0.8,0.2",51,FALSE,FALSE,-1900,,1
+,,,,,html-keyboard-response,211,339975,0.0-13.0-0.63,"[""cat"",""dog"",""rabbit""]",260,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,212,340422,0.0-13.0-1.63,"[""cat"",""dog"",""rabbit""]",279,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,213,341425,0.0-13.0-2.63,"[""cat"",""dog"",""rabbit""]",279,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,64,"0.2,0.4,0.8",50,TRUE,TRUE,-1900,,1
+,,,,,html-keyboard-response,214,341927,0.0-13.0-0.64,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,215,342311,0.0-13.0-1.64,"[""cat"",""dog"",""rabbit""]",381,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,216,343314,0.0-13.0-2.64,"[""cat"",""dog"",""rabbit""]",381,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,65,"0.2,0.4,0.8",50,FALSE,FALSE,-1950,,1
+,,,,,html-keyboard-response,217,343815,0.0-13.0-0.65,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,218,343983,0.0-13.0-1.65,"[""cat"",""dog"",""rabbit""]",166,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,219,344987,0.0-13.0-2.65,"[""cat"",""dog"",""rabbit""]",166,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,66,"0.2,0.4,0.8",51,TRUE,FALSE,-1950,,1
+,,,,,html-keyboard-response,220,345489,0.0-13.0-0.66,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,221,345741,0.0-13.0-1.66,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,222,346745,0.0-13.0-2.66,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,67,"0.2,0.4,0.8",49,FALSE,FALSE,-2000,,1
+,,,,,html-keyboard-response,223,347248,0.0-13.0-0.67,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,224,347503,0.0-13.0-1.67,"[""cat"",""dog"",""rabbit""]",253,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,225,348505,0.0-13.0-2.67,"[""cat"",""dog"",""rabbit""]",253,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,68,"0.2,0.4,0.8",51,FALSE,FALSE,-2050,,1
+,,,,,html-keyboard-response,226,349008,0.0-13.0-0.68,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,227,349364,0.0-13.0-1.68,"[""cat"",""dog"",""rabbit""]",354,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,228,350367,0.0-13.0-2.68,"[""cat"",""dog"",""rabbit""]",354,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,69,"0.2,0.4,0.8",51,TRUE,FALSE,-2050,,1
+,,,,,html-keyboard-response,229,350869,0.0-13.0-0.69,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,230,351298,0.0-13.0-1.69,"[""cat"",""dog"",""rabbit""]",426,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,231,352301,0.0-13.0-2.69,"[""cat"",""dog"",""rabbit""]",426,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,70,"0.2,0.4,0.8",51,TRUE,FALSE,-2050,,1
+,,,,,html-keyboard-response,232,352803,0.0-13.0-0.70,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,233,353144,0.0-13.0-1.70,"[""cat"",""dog"",""rabbit""]",339,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,234,354147,0.0-13.0-2.70,"[""cat"",""dog"",""rabbit""]",339,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,71,"0.2,0.4,0.8",51,FALSE,FALSE,-2100,,1
+,,,,,html-keyboard-response,235,354649,0.0-13.0-0.71,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,236,355245,0.0-13.0-1.71,"[""cat"",""dog"",""rabbit""]",319,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,237,356248,0.0-13.0-2.71,"[""cat"",""dog"",""rabbit""]",319,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,72,"0.2,0.4,0.8",50,FALSE,FALSE,-2150,,1
+,,,,,html-keyboard-response,238,356750,0.0-13.0-0.72,"[""cat"",""dog"",""rabbit""]",360,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,239,357101,0.0-13.0-1.72,"[""cat"",""dog"",""rabbit""]",349,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,240,358105,0.0-13.0-2.72,"[""cat"",""dog"",""rabbit""]",349,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,73,"0.2,0.4,0.8",49,FALSE,FALSE,-2200,,1
+,,,,,html-keyboard-response,241,358607,0.0-13.0-0.73,"[""cat"",""dog"",""rabbit""]",283,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,242,358948,0.0-13.0-1.73,"[""cat"",""dog"",""rabbit""]",339,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,243,359951,0.0-13.0-2.73,"[""cat"",""dog"",""rabbit""]",339,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,74,"0.2,0.4,0.8",51,TRUE,FALSE,-2200,,1
+,,,,,html-keyboard-response,244,360453,0.0-13.0-0.74,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,245,361179,0.0-13.0-1.74,"[""cat"",""dog"",""rabbit""]",723,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,246,362182,0.0-13.0-2.74,"[""cat"",""dog"",""rabbit""]",723,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,75,"0.2,0.4,0.8",51,FALSE,FALSE,-2250,,1
+,,,,,html-keyboard-response,247,362684,0.0-13.0-0.75,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,248,363594,0.0-13.0-1.75,"[""cat"",""dog"",""rabbit""]",909,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,249,364597,0.0-13.0-2.75,"[""cat"",""dog"",""rabbit""]",909,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,76,"0.2,0.4,0.8",51,TRUE,FALSE,-2250,,1
+,,,,,html-keyboard-response,250,365099,0.0-13.0-0.76,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,251,367275,0.0-13.0-1.76,"[""cat"",""dog"",""rabbit""]",2175,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,252,368279,0.0-13.0-2.76,"[""cat"",""dog"",""rabbit""]",2175,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,77,"0.2,0.4,0.8",51,TRUE,FALSE,-2250,,1
+,,,,,html-keyboard-response,253,368781,0.0-13.0-0.77,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,254,369058,0.0-13.0-1.77,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,255,370061,0.0-13.0-2.77,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,78,"0.2,0.4,0.8",51,TRUE,FALSE,-2250,,1
+,,,,,html-keyboard-response,256,370563,0.0-13.0-0.78,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,257,370906,0.0-13.0-1.78,"[""cat"",""dog"",""rabbit""]",341,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,258,371908,0.0-13.0-2.78,"[""cat"",""dog"",""rabbit""]",341,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,79,"0.2,0.4,0.8",51,TRUE,FALSE,-2250,,1
+,,,,,html-keyboard-response,259,372410,0.0-13.0-0.79,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,260,372625,0.0-13.0-1.79,"[""cat"",""dog"",""rabbit""]",213,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,261,373628,0.0-13.0-2.79,"[""cat"",""dog"",""rabbit""]",213,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,80,"0.2,0.4,0.8",51,TRUE,FALSE,-2250,,1
+,,,,,html-keyboard-response,262,400634,0.0-13.0-3.79-0.79,"[""cat"",""dog"",""rabbit""]",27004,You are 50% done with the experiment. Please press the (0) key to proceed.,0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,263,401135,0.0-13.0-0.80,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,264,403692,0.0-13.0-1.80,"[""cat"",""dog"",""rabbit""]",2555,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,265,404695,0.0-13.0-2.80,"[""cat"",""dog"",""rabbit""]",2555,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,81,"0.8,0.2,0.4",51,TRUE,TRUE,-2250,,
+,,,,,html-keyboard-response,266,405197,0.0-13.0-0.81,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,267,405539,0.0-13.0-1.81,"[""cat"",""dog"",""rabbit""]",340,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,268,406542,0.0-13.0-2.81,"[""cat"",""dog"",""rabbit""]",340,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,82,"0.8,0.2,0.4",51,TRUE,FALSE,-2250,,
+,,,,,html-keyboard-response,269,407044,0.0-13.0-0.82,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,270,407624,0.0-13.0-1.82,"[""cat"",""dog"",""rabbit""]",401,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,271,408626,0.0-13.0-2.82,"[""cat"",""dog"",""rabbit""]",401,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,83,"0.8,0.2,0.4",51,FALSE,FALSE,-2300,,
+,,,,,html-keyboard-response,272,409128,0.0-13.0-0.83,"[""cat"",""dog"",""rabbit""]",303,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,273,409329,0.0-13.0-1.83,"[""cat"",""dog"",""rabbit""]",200,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,274,410331,0.0-13.0-2.83,"[""cat"",""dog"",""rabbit""]",200,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,84,"0.8,0.2,0.4",51,FALSE,FALSE,-2350,,
+,,,,,html-keyboard-response,275,410833,0.0-13.0-0.84,"[""cat"",""dog"",""rabbit""]",315,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,276,411084,0.0-13.0-1.84,"[""cat"",""dog"",""rabbit""]",249,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,277,412087,0.0-13.0-2.84,"[""cat"",""dog"",""rabbit""]",249,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,85,"0.8,0.2,0.4",50,FALSE,FALSE,-2400,,
+,,,,,html-keyboard-response,278,412588,0.0-13.0-0.85,"[""cat"",""dog"",""rabbit""]",182,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,279,413030,0.0-13.0-1.85,"[""cat"",""dog"",""rabbit""]",440,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,280,414034,0.0-13.0-2.85,"[""cat"",""dog"",""rabbit""]",440,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,86,"0.8,0.2,0.4",49,TRUE,FALSE,-2400,,
+,,,,,html-keyboard-response,281,414536,0.0-13.0-0.86,"[""cat"",""dog"",""rabbit""]",428,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,282,414838,0.0-13.0-1.86,"[""cat"",""dog"",""rabbit""]",300,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,283,415841,0.0-13.0-2.86,"[""cat"",""dog"",""rabbit""]",300,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,87,"0.8,0.2,0.4",49,FALSE,FALSE,-2450,,
+,,,,,html-keyboard-response,284,416344,0.0-13.0-0.87,"[""cat"",""dog"",""rabbit""]",340,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,285,416598,0.0-13.0-1.87,"[""cat"",""dog"",""rabbit""]",252,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,286,417600,0.0-13.0-2.87,"[""cat"",""dog"",""rabbit""]",252,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,88,"0.8,0.2,0.4",51,FALSE,FALSE,-2500,,
+,,,,,html-keyboard-response,287,418102,0.0-13.0-0.88,"[""cat"",""dog"",""rabbit""]",378,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,288,418317,0.0-13.0-1.88,"[""cat"",""dog"",""rabbit""]",213,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,289,419320,0.0-13.0-2.88,"[""cat"",""dog"",""rabbit""]",213,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,89,"0.8,0.2,0.4",50,FALSE,FALSE,-2550,,
+,,,,,html-keyboard-response,290,419823,0.0-13.0-0.89,"[""cat"",""dog"",""rabbit""]",299,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,291,420017,0.0-13.0-1.89,"[""cat"",""dog"",""rabbit""]",193,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,292,421019,0.0-13.0-2.89,"[""cat"",""dog"",""rabbit""]",193,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,90,"0.8,0.2,0.4",51,FALSE,FALSE,-2600,,
+,,,,,html-keyboard-response,293,421521,0.0-13.0-0.90,"[""cat"",""dog"",""rabbit""]",189,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,294,422081,0.0-13.0-1.90,"[""cat"",""dog"",""rabbit""]",558,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,295,423084,0.0-13.0-2.90,"[""cat"",""dog"",""rabbit""]",558,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,91,"0.8,0.2,0.4",49,TRUE,FALSE,-2600,,
+,,,,,html-keyboard-response,296,423586,0.0-13.0-0.91,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,297,423882,0.0-13.0-1.91,"[""cat"",""dog"",""rabbit""]",294,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,298,424885,0.0-13.0-2.91,"[""cat"",""dog"",""rabbit""]",294,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,92,"0.8,0.2,0.4",49,FALSE,FALSE,-2650,,
+,,,,,html-keyboard-response,299,425386,0.0-13.0-0.92,"[""cat"",""dog"",""rabbit""]",310,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,300,425589,0.0-13.0-1.92,"[""cat"",""dog"",""rabbit""]",201,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,301,426592,0.0-13.0-2.92,"[""cat"",""dog"",""rabbit""]",201,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,93,"0.8,0.2,0.4",49,TRUE,FALSE,-2650,,
+,,,,,html-keyboard-response,302,427093,0.0-13.0-0.93,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,303,427729,0.0-13.0-1.93,"[""cat"",""dog"",""rabbit""]",337,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,304,428731,0.0-13.0-2.93,"[""cat"",""dog"",""rabbit""]",337,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,94,"0.8,0.2,0.4",50,FALSE,FALSE,-2700,,
+,,,,,html-keyboard-response,305,429234,0.0-13.0-0.94,"[""cat"",""dog"",""rabbit""]",400,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,306,429530,0.0-13.0-1.94,"[""cat"",""dog"",""rabbit""]",295,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,307,430533,0.0-13.0-2.94,"[""cat"",""dog"",""rabbit""]",295,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,95,"0.8,0.2,0.4",49,TRUE,FALSE,-2700,,
+,,,,,html-keyboard-response,308,431035,0.0-13.0-0.95,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,309,431495,0.0-13.0-1.95,"[""cat"",""dog"",""rabbit""]",206,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,310,432498,0.0-13.0-2.95,"[""cat"",""dog"",""rabbit""]",206,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,96,"0.8,0.2,0.4",49,TRUE,FALSE,-2700,,
+,,,,,html-keyboard-response,311,433001,0.0-13.0-0.96,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,312,434010,0.0-13.0-1.96,"[""cat"",""dog"",""rabbit""]",498,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,313,435014,0.0-13.0-2.96,"[""cat"",""dog"",""rabbit""]",498,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,97,"0.8,0.2,0.4",49,TRUE,FALSE,-2700,,
+,,,,,html-keyboard-response,314,435516,0.0-13.0-0.97,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,315,436362,0.0-13.0-1.97,"[""cat"",""dog"",""rabbit""]",362,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,316,437366,0.0-13.0-2.97,"[""cat"",""dog"",""rabbit""]",362,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,98,"0.8,0.2,0.4",49,TRUE,FALSE,-2700,,
+,,,,,html-keyboard-response,317,437867,0.0-13.0-0.98,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,318,438169,0.0-13.0-1.98,"[""cat"",""dog"",""rabbit""]",300,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,319,439171,0.0-13.0-2.98,"[""cat"",""dog"",""rabbit""]",300,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,99,"0.8,0.2,0.4",49,TRUE,FALSE,-2700,,
+,,,,,html-keyboard-response,320,439673,0.0-13.0-0.99,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,321,439912,0.0-13.0-1.99,"[""cat"",""dog"",""rabbit""]",237,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,322,440915,0.0-13.0-2.99,"[""cat"",""dog"",""rabbit""]",237,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,100,"0.4,0.8,0.2",49,FALSE,TRUE,-2750,,
+,,,,,html-keyboard-response,323,441416,0.0-13.0-0.100,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,324,441918,0.0-13.0-1.100,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,325,442921,0.0-13.0-2.100,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,101,"0.4,0.8,0.2",49,FALSE,FALSE,-2800,,
+,,,,,html-keyboard-response,326,443424,0.0-13.0-0.101,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,327,444217,0.0-13.0-1.101,"[""cat"",""dog"",""rabbit""]",504,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,328,445221,0.0-13.0-2.101,"[""cat"",""dog"",""rabbit""]",504,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,102,"0.4,0.8,0.2",50,FALSE,FALSE,-2850,,
+,,,,,html-keyboard-response,329,445723,0.0-13.0-0.102,"[""cat"",""dog"",""rabbit""]",216,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,330,446187,0.0-13.0-1.102,"[""cat"",""dog"",""rabbit""]",211,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,331,447190,0.0-13.0-2.102,"[""cat"",""dog"",""rabbit""]",211,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,103,"0.4,0.8,0.2",51,FALSE,FALSE,-2900,,
+,,,,,html-keyboard-response,332,447693,0.0-13.0-0.103,"[""cat"",""dog"",""rabbit""]",214,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,333,447992,0.0-13.0-1.103,"[""cat"",""dog"",""rabbit""]",298,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,334,448995,0.0-13.0-2.103,"[""cat"",""dog"",""rabbit""]",298,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,104,"0.4,0.8,0.2",49,FALSE,FALSE,-2950,,
+,,,,,html-keyboard-response,335,449497,0.0-13.0-0.104,"[""cat"",""dog"",""rabbit""]",437,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,336,449756,0.0-13.0-1.104,"[""cat"",""dog"",""rabbit""]",257,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,337,450759,0.0-13.0-2.104,"[""cat"",""dog"",""rabbit""]",257,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,105,"0.4,0.8,0.2",50,TRUE,FALSE,-2950,,
+,,,,,html-keyboard-response,338,451261,0.0-13.0-0.105,"[""cat"",""dog"",""rabbit""]",211,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,339,451729,0.0-13.0-1.105,"[""cat"",""dog"",""rabbit""]",466,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,340,452732,0.0-13.0-2.105,"[""cat"",""dog"",""rabbit""]",466,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,106,"0.4,0.8,0.2",50,TRUE,FALSE,-2950,,
+,,,,,html-keyboard-response,341,453235,0.0-13.0-0.106,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,342,453432,0.0-13.0-1.106,"[""cat"",""dog"",""rabbit""]",195,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,343,454435,0.0-13.0-2.106,"[""cat"",""dog"",""rabbit""]",195,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,107,"0.4,0.8,0.2",50,TRUE,FALSE,-2950,,
+,,,,,html-keyboard-response,344,454937,0.0-13.0-0.107,"[""cat"",""dog"",""rabbit""]",238,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,345,455199,0.0-13.0-1.107,"[""cat"",""dog"",""rabbit""]",260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,346,456202,0.0-13.0-2.107,"[""cat"",""dog"",""rabbit""]",260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,108,"0.4,0.8,0.2",50,TRUE,FALSE,-2950,,
+,,,,,html-keyboard-response,347,456704,0.0-13.0-0.108,"[""cat"",""dog"",""rabbit""]",326,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,348,457004,0.0-13.0-1.108,"[""cat"",""dog"",""rabbit""]",297,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,349,458007,0.0-13.0-2.108,"[""cat"",""dog"",""rabbit""]",297,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,109,"0.4,0.8,0.2",50,FALSE,FALSE,-3000,,
+,,,,,html-keyboard-response,350,458508,0.0-13.0-0.109,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,351,459138,0.0-13.0-1.109,"[""cat"",""dog"",""rabbit""]",344,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,352,460141,0.0-13.0-2.109,"[""cat"",""dog"",""rabbit""]",344,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,110,"0.4,0.8,0.2",51,FALSE,FALSE,-3050,,
+,,,,,html-keyboard-response,353,460643,0.0-13.0-0.110,"[""cat"",""dog"",""rabbit""]",331,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,354,460860,0.0-13.0-1.110,"[""cat"",""dog"",""rabbit""]",215,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,355,461863,0.0-13.0-2.110,"[""cat"",""dog"",""rabbit""]",215,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,111,"0.4,0.8,0.2",50,TRUE,FALSE,-3050,,
+,,,,,html-keyboard-response,356,462365,0.0-13.0-0.111,"[""cat"",""dog"",""rabbit""]",176,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,357,462523,0.0-13.0-1.111,"[""cat"",""dog"",""rabbit""]",156,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,358,463526,0.0-13.0-2.111,"[""cat"",""dog"",""rabbit""]",156,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,112,"0.4,0.8,0.2",50,TRUE,FALSE,-3050,,
+,,,,,html-keyboard-response,359,464029,0.0-13.0-0.112,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,360,464528,0.0-13.0-1.112,"[""cat"",""dog"",""rabbit""]",256,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,361,465531,0.0-13.0-2.112,"[""cat"",""dog"",""rabbit""]",256,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,113,"0.4,0.8,0.2",50,TRUE,FALSE,-3050,,
+,,,,,html-keyboard-response,362,466033,0.0-13.0-0.113,"[""cat"",""dog"",""rabbit""]",313,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,363,466275,0.0-13.0-1.113,"[""cat"",""dog"",""rabbit""]",240,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,364,467278,0.0-13.0-2.113,"[""cat"",""dog"",""rabbit""]",240,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,114,"0.4,0.8,0.2",50,FALSE,FALSE,-3100,,
+,,,,,html-keyboard-response,365,467781,0.0-13.0-0.114,"[""cat"",""dog"",""rabbit""]",459,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,366,468227,0.0-13.0-1.114,"[""cat"",""dog"",""rabbit""]",443,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,367,469231,0.0-13.0-2.114,"[""cat"",""dog"",""rabbit""]",443,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,115,"0.4,0.8,0.2",50,TRUE,FALSE,-3100,,
+,,,,,html-keyboard-response,368,469733,0.0-13.0-0.115,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,369,470074,0.0-13.0-1.115,"[""cat"",""dog"",""rabbit""]",157,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,370,471077,0.0-13.0-2.115,"[""cat"",""dog"",""rabbit""]",157,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,116,"0.4,0.8,0.2",50,TRUE,FALSE,-3100,,
+,,,,,html-keyboard-response,371,471580,0.0-13.0-0.116,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,372,471854,0.0-13.0-1.116,"[""cat"",""dog"",""rabbit""]",273,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,373,472858,0.0-13.0-2.116,"[""cat"",""dog"",""rabbit""]",273,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,117,"0.4,0.8,0.2",50,TRUE,FALSE,-3100,,
+,,,,,html-keyboard-response,374,473359,0.0-13.0-0.117,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,375,473654,0.0-13.0-1.117,"[""cat"",""dog"",""rabbit""]",291,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,376,474657,0.0-13.0-2.117,"[""cat"",""dog"",""rabbit""]",291,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,118,"0.4,0.8,0.2",50,TRUE,FALSE,-3100,,
+,,,,,html-keyboard-response,377,475159,0.0-13.0-0.118,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,378,475449,0.0-13.0-1.118,"[""cat"",""dog"",""rabbit""]",287,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,379,476452,0.0-13.0-2.118,"[""cat"",""dog"",""rabbit""]",287,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,119,"0.4,0.8,0.2",50,TRUE,FALSE,-3100,,
+,,,,,html-keyboard-response,380,476954,0.0-13.0-0.119,"[""cat"",""dog"",""rabbit""]",342,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,381,477354,0.0-13.0-1.119,"[""cat"",""dog"",""rabbit""]",397,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,382,478357,0.0-13.0-2.119,"[""cat"",""dog"",""rabbit""]",397,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,120,"0.2,0.4,0.8",50,TRUE,TRUE,-3100,,
+,,,,,html-keyboard-response,383,609295,0.0-13.0-3.119-0.119,"[""cat"",""dog"",""rabbit""]",130937,You are 75% done with the experiment. Please press the (0) key to proceed.,0,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,384,609797,0.0-13.0-0.120,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,385,644793,0.0-13.0-1.120,"[""cat"",""dog"",""rabbit""]",34994,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,386,645797,0.0-13.0-2.120,"[""cat"",""dog"",""rabbit""]",34994,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,121,"0.2,0.4,0.8",49,FALSE,FALSE,-3150,,
+,,,,,html-keyboard-response,387,646299,0.0-13.0-0.121,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,388,646599,0.0-13.0-1.121,"[""cat"",""dog"",""rabbit""]",298,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,389,647602,0.0-13.0-2.121,"[""cat"",""dog"",""rabbit""]",298,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,122,"0.2,0.4,0.8",50,TRUE,FALSE,-3150,,
+,,,,,html-keyboard-response,390,648105,0.0-13.0-0.122,"[""cat"",""dog"",""rabbit""]",300,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,391,648381,0.0-13.0-1.122,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,392,649384,0.0-13.0-2.122,"[""cat"",""dog"",""rabbit""]",275,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,123,"0.2,0.4,0.8",50,TRUE,FALSE,-3150,,
+,,,,,html-keyboard-response,393,649886,0.0-13.0-0.123,"[""cat"",""dog"",""rabbit""]",338,<div style='font-size:40px'>+</div>,2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,394,650209,0.0-13.0-1.123,"[""cat"",""dog"",""rabbit""]",319,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,395,651211,0.0-13.0-2.123,"[""cat"",""dog"",""rabbit""]",319,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,124,"0.2,0.4,0.8",50,FALSE,FALSE,-3200,,
+,,,,,html-keyboard-response,396,651714,0.0-13.0-0.124,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,397,652247,0.0-13.0-1.124,"[""cat"",""dog"",""rabbit""]",236,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,398,653249,0.0-13.0-2.124,"[""cat"",""dog"",""rabbit""]",236,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,125,"0.2,0.4,0.8",50,FALSE,FALSE,-3250,,
+,,,,,html-keyboard-response,399,653751,0.0-13.0-0.125,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,400,654511,0.0-13.0-1.125,"[""cat"",""dog"",""rabbit""]",758,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,401,655515,0.0-13.0-2.125,"[""cat"",""dog"",""rabbit""]",758,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,126,"0.2,0.4,0.8",51,TRUE,FALSE,-3250,,
+,,,,,html-keyboard-response,402,656017,0.0-13.0-0.126,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,403,656250,0.0-13.0-1.126,"[""cat"",""dog"",""rabbit""]",231,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,404,657253,0.0-13.0-2.126,"[""cat"",""dog"",""rabbit""]",231,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,127,"0.2,0.4,0.8",51,TRUE,FALSE,-3250,,
+,,,,,html-keyboard-response,405,657754,0.0-13.0-0.127,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,406,658007,0.0-13.0-1.127,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,407,659009,0.0-13.0-2.127,"[""cat"",""dog"",""rabbit""]",250,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,128,"0.2,0.4,0.8",51,TRUE,FALSE,-3250,,
+,,,,,html-keyboard-response,408,659512,0.0-13.0-0.128,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,409,659753,0.0-13.0-1.128,"[""cat"",""dog"",""rabbit""]",239,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,410,660756,0.0-13.0-2.128,"[""cat"",""dog"",""rabbit""]",239,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,129,"0.2,0.4,0.8",51,TRUE,FALSE,-3250,,
+,,,,,html-keyboard-response,411,661259,0.0-13.0-0.129,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,412,661452,0.0-13.0-1.129,"[""cat"",""dog"",""rabbit""]",192,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,413,662455,0.0-13.0-2.129,"[""cat"",""dog"",""rabbit""]",192,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,130,"0.2,0.4,0.8",51,FALSE,FALSE,-3300,,
+,,,,,html-keyboard-response,414,662958,0.0-13.0-0.130,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,415,663120,0.0-13.0-1.130,"[""cat"",""dog"",""rabbit""]",161,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,416,664123,0.0-13.0-2.130,"[""cat"",""dog"",""rabbit""]",161,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,131,"0.2,0.4,0.8",51,TRUE,FALSE,-3300,,
+,,,,,html-keyboard-response,417,664625,0.0-13.0-0.131,"[""cat"",""dog"",""rabbit""]",410,<div style='font-size:40px'>+</div>,3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,418,665043,0.0-13.0-1.131,"[""cat"",""dog"",""rabbit""]",415,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,419,666046,0.0-13.0-2.131,"[""cat"",""dog"",""rabbit""]",415,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,132,"0.2,0.4,0.8",51,TRUE,FALSE,-3300,,
+,,,,,html-keyboard-response,420,666548,0.0-13.0-0.132,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,421,666791,0.0-13.0-1.132,"[""cat"",""dog"",""rabbit""]",241,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,422,667793,0.0-13.0-2.132,"[""cat"",""dog"",""rabbit""]",241,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,133,"0.2,0.4,0.8",51,TRUE,FALSE,-3300,,
+,,,,,html-keyboard-response,423,668296,0.0-13.0-0.133,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,424,669008,0.0-13.0-1.133,"[""cat"",""dog"",""rabbit""]",429,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,425,670011,0.0-13.0-2.133,"[""cat"",""dog"",""rabbit""]",429,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,134,"0.2,0.4,0.8",51,TRUE,FALSE,-3300,,
+,,,,,html-keyboard-response,426,670513,0.0-13.0-0.134,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,427,670664,0.0-13.0-1.134,"[""cat"",""dog"",""rabbit""]",148,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,428,671667,0.0-13.0-2.134,"[""cat"",""dog"",""rabbit""]",148,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,135,"0.2,0.4,0.8",51,FALSE,FALSE,-3350,,
+,,,,,html-keyboard-response,429,672168,0.0-13.0-0.135,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,430,672864,0.0-13.0-1.135,"[""cat"",""dog"",""rabbit""]",411,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,431,673868,0.0-13.0-2.135,"[""cat"",""dog"",""rabbit""]",411,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,136,"0.2,0.4,0.8",51,TRUE,FALSE,-3350,,
+,,,,,html-keyboard-response,432,674370,0.0-13.0-0.136,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,433,674892,0.0-13.0-1.136,"[""cat"",""dog"",""rabbit""]",285,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,434,675895,0.0-13.0-2.136,"[""cat"",""dog"",""rabbit""]",285,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,137,"0.2,0.4,0.8",51,TRUE,FALSE,-3350,,
+,,,,,html-keyboard-response,435,676398,0.0-13.0-0.137,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,436,676689,0.0-13.0-1.137,"[""cat"",""dog"",""rabbit""]",290,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,437,677692,0.0-13.0-2.137,"[""cat"",""dog"",""rabbit""]",290,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,138,"0.2,0.8,0.4",51,TRUE,TRUE,-3350,,
+,,,,,html-keyboard-response,438,678194,0.0-13.0-0.138,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,439,678456,0.0-13.0-1.138,"[""cat"",""dog"",""rabbit""]",260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,440,679459,0.0-13.0-2.138,"[""cat"",""dog"",""rabbit""]",260,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_win.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,139,"0.2,0.8,0.4",51,TRUE,FALSE,-3350,,
+,,,,,html-keyboard-response,441,679961,0.0-13.0-0.139,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,442,680459,0.0-13.0-1.139,"[""cat"",""dog"",""rabbit""]",237,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,443,681462,0.0-13.0-2.139,"[""cat"",""dog"",""rabbit""]",237,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,140,"0.2,0.8,0.4",51,FALSE,FALSE,-3400,,
+,,,,,html-keyboard-response,444,681965,0.0-13.0-0.140,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,445,682249,0.0-13.0-1.140,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",3,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,446,683252,0.0-13.0-2.140,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/outcome/squared_lose.png'>
+            </div>",3,1,2/17/26,right,loss,1,stable-volatile,8,rabbit,141,"0.2,0.8,0.4",51,FALSE,FALSE,-3450,,
+,,,,,html-keyboard-response,447,683754,0.0-13.0-0.141,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,448,685068,0.0-13.0-1.141,"[""cat"",""dog"",""rabbit""]",1311,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,449,686071,0.0-13.0-2.141,"[""cat"",""dog"",""rabbit""]",1311,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,142,"0.2,0.8,0.4",49,FALSE,FALSE,-3500,,
+,,,,,html-keyboard-response,450,686573,0.0-13.0-0.142,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,451,686858,0.0-13.0-1.142,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,452,687861,0.0-13.0-2.142,"[""cat"",""dog"",""rabbit""]",283,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,143,"0.2,0.8,0.4",49,TRUE,FALSE,-3500,,
+,,,,,html-keyboard-response,453,688363,0.0-13.0-0.143,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,454,688556,0.0-13.0-1.143,"[""cat"",""dog"",""rabbit""]",191,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,455,689558,0.0-13.0-2.143,"[""cat"",""dog"",""rabbit""]",191,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,144,"0.2,0.8,0.4",49,FALSE,FALSE,-3550,,
+,,,,,html-keyboard-response,456,690061,0.0-13.0-0.144,"[""cat"",""dog"",""rabbit""]",500,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,457,690458,0.0-13.0-1.144,"[""cat"",""dog"",""rabbit""]",396,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,458,691461,0.0-13.0-2.144,"[""cat"",""dog"",""rabbit""]",396,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,145,"0.2,0.8,0.4",49,TRUE,FALSE,-3550,,
+,,,,,html-keyboard-response,459,691964,0.0-13.0-0.145,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,460,692123,0.0-13.0-1.145,"[""cat"",""dog"",""rabbit""]",158,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,461,693126,0.0-13.0-2.145,"[""cat"",""dog"",""rabbit""]",158,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,146,"0.2,0.8,0.4",49,FALSE,FALSE,-3600,,
+,,,,,html-keyboard-response,462,693629,0.0-13.0-0.146,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,463,693889,0.0-13.0-1.146,"[""cat"",""dog"",""rabbit""]",257,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,464,694891,0.0-13.0-2.146,"[""cat"",""dog"",""rabbit""]",257,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,147,"0.2,0.8,0.4",49,TRUE,FALSE,-3600,,
+,,,,,html-keyboard-response,465,695393,0.0-13.0-0.147,"[""cat"",""dog"",""rabbit""]",400,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,466,695753,0.0-13.0-1.147,"[""cat"",""dog"",""rabbit""]",359,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,467,696757,0.0-13.0-2.147,"[""cat"",""dog"",""rabbit""]",359,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,148,"0.2,0.8,0.4",49,TRUE,FALSE,-3600,,
+,,,,,html-keyboard-response,468,697259,0.0-13.0-0.148,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,469,697660,0.0-13.0-1.148,"[""cat"",""dog"",""rabbit""]",228,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,470,698663,0.0-13.0-2.148,"[""cat"",""dog"",""rabbit""]",228,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,149,"0.2,0.8,0.4",49,FALSE,FALSE,-3650,,
+,,,,,html-keyboard-response,471,699166,0.0-13.0-0.149,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,472,699605,0.0-13.0-1.149,"[""cat"",""dog"",""rabbit""]",175,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,473,700609,0.0-13.0-2.149,"[""cat"",""dog"",""rabbit""]",175,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,150,"0.2,0.8,0.4",49,FALSE,FALSE,-3700,,
+,,,,,html-keyboard-response,474,701110,0.0-13.0-0.150,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,475,701440,0.0-13.0-1.150,"[""cat"",""dog"",""rabbit""]",328,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,476,702443,0.0-13.0-2.150,"[""cat"",""dog"",""rabbit""]",328,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,151,"0.2,0.8,0.4",50,TRUE,FALSE,-3700,,
+,,,,,html-keyboard-response,477,702944,0.0-13.0-0.151,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,478,703217,0.0-13.0-1.151,"[""cat"",""dog"",""rabbit""]",271,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,479,704219,0.0-13.0-2.151,"[""cat"",""dog"",""rabbit""]",271,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,152,"0.2,0.8,0.4",50,TRUE,FALSE,-3700,,
+,,,,,html-keyboard-response,480,704722,0.0-13.0-0.152,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,481,705004,0.0-13.0-1.152,"[""cat"",""dog"",""rabbit""]",279,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,482,706007,0.0-13.0-2.152,"[""cat"",""dog"",""rabbit""]",279,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,153,"0.2,0.8,0.4",50,TRUE,FALSE,-3700,,
+,,,,,html-keyboard-response,483,706509,0.0-13.0-0.153,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,484,706859,0.0-13.0-1.153,"[""cat"",""dog"",""rabbit""]",348,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,485,707863,0.0-13.0-2.153,"[""cat"",""dog"",""rabbit""]",348,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,154,"0.4,0.2,0.8",50,TRUE,TRUE,-3700,,
+,,,,,html-keyboard-response,486,708365,0.0-13.0-0.154,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,487,708682,0.0-13.0-1.154,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,488,709685,0.0-13.0-2.154,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,155,"0.4,0.2,0.8",50,FALSE,FALSE,-3750,,
+,,,,,html-keyboard-response,489,710187,0.0-13.0-0.155,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,490,710652,0.0-13.0-1.155,"[""cat"",""dog"",""rabbit""]",271,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,491,711656,0.0-13.0-2.155,"[""cat"",""dog"",""rabbit""]",271,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/outcome/squared_lose.png'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",2,1,2/17/26,right,loss,1,stable-volatile,8,dog,156,"0.4,0.2,0.8",50,FALSE,FALSE,-3800,,
+,,,,,html-keyboard-response,492,712158,0.0-13.0-0.156,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,493,713088,0.0-13.0-1.156,"[""cat"",""dog"",""rabbit""]",928,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,494,714091,0.0-13.0-2.156,"[""cat"",""dog"",""rabbit""]",928,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,157,"0.4,0.2,0.8",49,TRUE,FALSE,-3800,,
+,,,,,html-keyboard-response,495,714595,0.0-13.0-0.157,"[""cat"",""dog"",""rabbit""]",446,<div style='font-size:40px'>+</div>,1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,496,714942,0.0-13.0-1.157,"[""cat"",""dog"",""rabbit""]",346,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,497,715946,0.0-13.0-2.157,"[""cat"",""dog"",""rabbit""]",346,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,158,"0.4,0.2,0.8",49,TRUE,FALSE,-3800,,
+,,,,,html-keyboard-response,498,716449,0.0-13.0-0.158,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,499,716892,0.0-13.0-1.158,"[""cat"",""dog"",""rabbit""]",193,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,500,717895,0.0-13.0-2.158,"[""cat"",""dog"",""rabbit""]",193,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,159,"0.4,0.2,0.8",49,TRUE,FALSE,-3800,,
+,,,,,html-keyboard-response,501,718398,0.0-13.0-0.159,"[""cat"",""dog"",""rabbit""]",null,<div style='font-size:40px'>+</div>,null,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,502,718713,0.0-13.0-1.159,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/8/catsquare.jpg'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,503,719716,0.0-13.0-2.159,"[""cat"",""dog"",""rabbit""]",314,"
+            <div class='image-container'>
+                <img class='stimuli-left' src='stim/loss/outcome/squared_win.png'>
+                <img class='stimuli-middle' src='stim/loss/8/dogsquare.jpg'>
+                <img class='stimuli-right' src='stim/loss/8/rabbitsquare.jpg'>
+            </div>",1,1,2/17/26,right,loss,1,stable-volatile,8,cat,160,"0.4,0.2,0.8",49,TRUE,FALSE,-3800,,
+,,,,,html-keyboard-response,504,724719,0.0-14.0,"[""cat"",""dog"",""rabbit""]",null,"
+<div class='data-save-animation'>
+    <p>Data saving...</p>
+    <div class=""sk-cube-grid"">
+        <div class=""sk-cube sk-cube1""></div>
+        <div class=""sk-cube sk-cube2""></div>
+        <div class=""sk-cube sk-cube3""></div>
+        <div class=""sk-cube sk-cube4""></div>
+        <div class=""sk-cube sk-cube5""></div>
+        <div class=""sk-cube sk-cube6""></div>
+        <div class=""sk-cube sk-cube7""></div>
+        <div class=""sk-cube sk-cube8""></div>
+        <div class=""sk-cube sk-cube9""></div>
+    </div>
+    <p>Do not close this window until the text disappears.</p>
+</div>",null,,,,,,,,,,,,,,,,

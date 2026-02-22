@@ -124,6 +124,14 @@ const cues_confidence = {
     response_ends_trial: true,
     choices: ["1", "2", "3"], // Initially, there may be no keys allowed if you want to start in a "disabled" state
     stimulus: () => {
+        // JD added 2.21.26 to log performance
+        const start = performance.now();
+        requestAnimationFrame(() => {
+            const delay = performance.now() - start;
+            console.log("Cue render delay (ms):", delay.toFixed(2));
+        });
+        // End JD added 2.21.26 to log performance
+
         return `
             <div class='image-container'>
                 <img class='stimuli-left' src='${stim[0]}'>
