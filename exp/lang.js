@@ -52,10 +52,10 @@ switch (version) {
         // } total across the two blocks"
 
         var english3 = `
-        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
-        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to pick the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
-        <p>Let's practice selecting an animal.</p>
-        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <p>In this game, you will see three card decks. On each turn you will pick one of them.</p>
+        <p>You can select a deck using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to pick the <i>left</i>, <i>middle</i>, or <i>right</i> deck respectively.</p>
+        <p>Let's practice selecting a deck.</p>
+        <p>Pick the <strong>left</strong> deck by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -63,7 +63,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now pick the <strong>middle</strong> deck by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -71,7 +71,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now pick the <strong>right</strong> deck by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -79,9 +79,9 @@ switch (version) {
         </div>`;
 
         var english6 = `
-        <p>Good job! You have successfully practiced selecting animals.</p>
-        <p>Some animals lead to a better outcome than others.</p>
-        <p>An animal can either take away <b> ${losePoints} </b> points or allow you to <b> keep </b> points.</p>
+        <p>Good job! You have successfully practiced selecting decks.</p>
+        <p>Some decks lead to a better outcome than others.</p>
+        <p>A deck can either take away <b> ${losePoints} </b> points or allow you to <b> keep </b> points.</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
         <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
@@ -90,25 +90,25 @@ switch (version) {
         <p>Please press the zero (0) key to continue.</p>`;
         
         var english7 = `
-        <p>Your job is to figure out which animal is the best choice, so that you can keep as many points as possible.</p>
+        <p>Your job is to figure out which deck is the best choice, so that you can keep as many points as possible.</p>
         <p>Your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key to continue.</p>`;
 
         var english8 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to avoid losing points.</p>
+        <p><b>There may be times when the best deck will change!</b></p>
+        <p>If you think the best deck has changed from what it was before, then try to find out the new best deck to avoid losing points.</p>
         <p>Please press the zero (0) key to continue.`;
 
         var english9 = `
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
         <p>Please press the zero (0) key to start the practice round.</p>`;
 
         var english10 = `
         <p>You have now completed the practice round.</p>
         <p>You will now begin the main task, which will take approximately 10 minutes.</p>
-        <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select animals.</p>
+        <p>You will be given <b> 8000 </b> points and should attempt to retain points as you select decks.</p>
         <p>As a reminder, your remaining points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 
@@ -155,10 +155,10 @@ switch (version) {
         // } across the two blocks
 
         var english3 = `
-        <p>In this game, you will see three kinds of animals. On each turn you will pick one of them.</p>
-        <p>You can select an animal using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> animal respectively.</p>
-        <p>Let's practice selecting an animal.</p>
-        <p>Pick the <strong>left</strong> animal by pressing the <strong>1</strong> key.
+        <p>In this game, you will see three kinds of decks. On each turn you will pick one of them.</p>
+        <p>You can select a deck using the <i>1</i>, <i>2</i>, or <i>3</i> keys on your keyboard to choose the <i>left</i>, <i>middle</i>, or <i>right</i> deck respectively.</p>
+        <p>Let's practice selecting a deck.</p>
+        <p>Pick the <strong>left</strong> deck by pressing the <strong>1</strong> key.
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -166,7 +166,7 @@ switch (version) {
         </div>`;
 
         var english4 = `
-        <p>Great! Now pick the <strong>middle</strong> animal by pressing the <strong>2</strong> key.</p>
+        <p>Great! Now pick the <strong>middle</strong> deck by pressing the <strong>2</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -174,7 +174,7 @@ switch (version) {
         </div>`;
 
         var english5 = `
-        <p>Excellent! Now pick the <strong>right</strong> animal by pressing the <strong>3</strong> key.</p>
+        <p>Excellent! Now pick the <strong>right</strong> deck by pressing the <strong>3</strong> key.</p>
         <div class='image-container'>
             <img class='stimuli-left' src='${stim[0]}'>
             <img class='stimuli-middle' src='${stim[1]}'>
@@ -182,9 +182,9 @@ switch (version) {
         </div>`;
 
         var english6 = `
-        <p>Good job! You have successfully practiced selecting animals.</p>
-        <p>Some animals lead to a better outcome than others.</p>
-        <p>An animal can either give you <b> ${winPoints} </b> points or <b> no points. </b> </p>
+        <p>Good job! You have successfully practiced selecting decks.</p>
+        <p>Some decks lead to a better outcome than others.</p>
+        <p>A deck can either give you <b> ${winPoints} </b> points or <b> no points. </b> </p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
         <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
@@ -193,25 +193,25 @@ switch (version) {
         <p>Please press the zero (0) key to continue.</p>`;
 
         var english7 = `
-        <p>Your job is to figure out which animal is the best choice, so that you can gain as many points as possible.</p>
+        <p>Your job is to figure out which deck is the best choice, so that you can gain as many points as possible.</p>
         <p>Your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key to continue.</p>`;
 
         var english8 = `
         <p>However, there is one final catch:</p>
-        <p><b>There may be times when the best animal will change!</b></p>
-        <p>If you think the best animal has changed from what it was before, then try to find out the new best animal to gain more points.</p>
+        <p><b>There may be times when the best deck will change!</b></p>
+        <p>If you think the best deck has changed from what it was before, then try to find out the new best deck to gain more points.</p>
         <p>Please press the zero (0) key to continue.</p>`;
 
         var english9 = `
         <p>The following is a practice round of just 3 turns.<p>
-        <p>The points you get here won’t change your final score, and the best animal will change between the practice round and when the real game starts.</p>
+        <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
         Please press the zero (0) key to start the practice round.`;
 
         var english10 = `
         <p>You have now completed the practice round.</p>
         <p>You will now begin the main task, which will take approximately 10 minutes.</p>
-        <p>You will be given an opportunity to gain points as you select animals.</p>
+        <p>You will be given an opportunity to gain points as you select decks.</p>
         <p>As a reminder, your total points will be converted to a final bonus of <b> $1 </b> per every <b> ${pointsPerDollar} </b> points at the end of the game.</p>
         <p>Please press the zero (0) key whenever you are ready to start the task.</p>`;
 

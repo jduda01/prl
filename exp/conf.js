@@ -6,7 +6,7 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = true;
+const debug = false;
 
 // enable touch screen compatibility and adjusts instruction for touch
 const enableTouch = false;
@@ -21,7 +21,11 @@ let version;
 // const phase = counterbalanceParticipants(subjectId, modulus);
 
 // To counterbalance evenly across groups, use the below line:
-const phase = parseInt(new URLSearchParams(window.location.search).get("phase"));
+const params = new URLSearchParams(window.location.search);
+
+window.phase = parseInt(params.get("phase")); // set global (for redirect.js)
+
+const phase = window.phase; // create local alias (for your file)
 
 // Ensure phase exists
 if (isNaN(phase)) {
