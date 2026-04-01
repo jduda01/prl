@@ -15,8 +15,19 @@ const enableTouch = false;
 let version; 
 
 // Modulus and phase normally controlled by getRedirectLink() in redirect.js but can hard code them here instead if needed.
-const modulus = 4; //Update to 8 to run gain and loss combined version 
-const phase = counterbalanceParticipants(subjectId, modulus);
+
+// To counterbalance using a modulus, use the below two lines
+// const modulus = 4; //Update to 8 to run gain and loss combined version 
+// const phase = counterbalanceParticipants(subjectId, modulus);
+
+// To counterbalance evenly across groups, use the below line:
+const phase = parseInt(new URLSearchParams(window.location.search).get("phase"));
+
+// Ensure phase exists
+if (isNaN(phase)) {
+    console.error("Phase not found in URL");
+}
+
 console.log("Phase is " + phase)
 
 switch (phase){
