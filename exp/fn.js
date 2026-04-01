@@ -74,11 +74,11 @@ function businessLogic() {
     let observedOutcome;
     if (Math.random() <= currentProbability[response - 1]) {
         // observedOutcome = outcome[0]; // output win (50 - gain version, 0 - loss version) card
-        observedOutcome = `stim/${version}/outcome/squared_win.png`; 
+        observedOutcome = `stim/${version}/outcome/scaled_win.png`; 
         win = true;
     } else {
         // observedOutcome = outcome[1]; // output lose (-50 - loss version, 0 - gain version) card
-        observedOutcome = `stim/${version}/outcome/squared_lose.png`; 
+        observedOutcome = `stim/${version}/outcome/scaled_lose.png`; 
         win = false;
     }
     // console.log("win? "+win) // Print outcome to console

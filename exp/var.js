@@ -80,8 +80,8 @@ switch (version) {
 
 // Outcome vector for lang.js to reference
 const outcome = [
-    `stim/${version}/outcome/squared_win.png`,
-    `stim/${version}/outcome/squared_lose.png`,
+    `stim/${version}/outcome/scaled_win.png`,
+    `stim/${version}/outcome/scaled_lose.png`,
 ];
 
 console.log("Final stim array for version", version, ":", stim);

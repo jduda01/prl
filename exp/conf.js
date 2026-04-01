@@ -6,7 +6,7 @@
 
 // Debug Mode
 // IMPORTANT: Set to false for production
-const debug = false;
+const debug = true;
 
 // enable touch screen compatibility and adjusts instruction for touch
 const enableTouch = false;
@@ -42,7 +42,7 @@ const trials = debug ? 1 : 40; // Can change first number to pilot more or fewer
 const blocks = 4; // Blocks are defined as 40 trials by original PRL. Use "trialsPerLargeBlock" for complete 80-trial block
 const totalTrials = trials * blocks;
 const trialsPerLargeBlock = 2 * trials; // Stores 80-trial blocks
-const currentStimulusSet = 8; // See stimulus sets in var.js
+const currentStimulusSet = 0; // See stimulus sets in var.js
 
 // Point Settings
 let winPoints = [];

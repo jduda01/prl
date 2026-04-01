@@ -84,8 +84,8 @@ switch (version) {
         <p>An animal can either take away <b> ${losePoints} </b> points or allow you to <b> keep </b> points.</p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
-        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>;
+        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
         </div>
         <p>Please press the zero (0) key to continue.</p>`;
         
@@ -187,8 +187,8 @@ switch (version) {
         <p>An animal can either give you <b> ${winPoints} </b> points or <b> no points. </b> </p>
         <p>Below you can see what those outcomes look like:</p>
         <div class='outcome-container'>
-        <img class='outcome-left' src='stim/${version}/outcome/squared_win.png'>
-        <img class='outcome-right' src='stim/${version}/outcome/squared_lose.png'>
+        <img class='outcome-left' src='stim/${version}/outcome/scaled_win.png'>
+        <img class='outcome-right' src='stim/${version}/outcome/scaled_lose.png'>
         </div>
         <p>Please press the zero (0) key to continue.</p>`;
 

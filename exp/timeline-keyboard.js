@@ -143,9 +143,9 @@ const cues_confidence = {
 
 // practice trials
 let practiceOutcomes = shuffleArray([ // JD added to track whether win shown
-        'stim/loss/outcome/squared_win.png',
-        'stim/loss/outcome/squared_win.png',
-        'stim/loss/outcome/squared_lose.png']);
+        'stim/loss/outcome/scaled_win.png',
+        'stim/loss/outcome/scaled_win.png',
+        'stim/loss/outcome/scaled_lose.png']);
 
 const practiceFeedback = {
     type: jsPsychHtmlKeyboardResponse,
