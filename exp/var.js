@@ -5,7 +5,7 @@ let nextReversalAt = null; // JD added 1/25/26 to track reversals
 let selected_stim = []; // JD added 1/29/26 to save which stimulus was selected
 let reversalRanges = [];
 // Randomize initial reward probability set at start of experiment
-let taskProbabilities = [0.8, 0.4, 0.2]; // Since no contingency shift, hard coded as hard version
+let taskProbabilities = [0.9, 0.5, 0.1]; // Since no contingency shift, hard code as easier (90-50-10) or harder (80-40-20)
 let currentProbability = shuffleArray(taskProbabilities);
 
 

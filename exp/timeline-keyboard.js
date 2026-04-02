@@ -145,7 +145,14 @@ const cues_confidence = {
 let practiceOutcomes = shuffleArray([ // JD added to track whether win shown
         'stim/loss/outcome/scaled_win.png',
         'stim/loss/outcome/scaled_win.png',
-        'stim/loss/outcome/scaled_lose.png']);
+        'stim/loss/outcome/scaled_win.png',
+        'stim/loss/outcome/scaled_win.png',
+        'stim/loss/outcome/scaled_win.png',
+        'stim/loss/outcome/scaled_lose.png',
+        'stim/loss/outcome/scaled_lose.png',
+        'stim/loss/outcome/scaled_lose.png',
+        'stim/loss/outcome/scaled_lose.png',
+        'stim/loss/outcome/scaled_lose.png',]);
 
 const practiceFeedback = {
     type: jsPsychHtmlKeyboardResponse,
@@ -208,7 +215,7 @@ const trialFeedback = {
 
 const practiceTrial = {
     timeline: [fixation, cues_confidence, practiceFeedback],
-    repetitions: 3,
+    repetitions: 10,
 };
 
 // Present progress report messages at every quarter (%) trial
