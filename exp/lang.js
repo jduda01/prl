@@ -101,7 +101,7 @@ switch (version) {
         <p>Please press the zero (0) key to continue.`;
 
         var english9 = `
-        <p>The following is a practice round of just 3 turns.<p>
+        <p>The following is a practice round of 10 turns.<p>
         <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
         <p>Please press the zero (0) key to start the practice round.</p>`;
 
@@ -204,7 +204,7 @@ switch (version) {
         <p>Please press the zero (0) key to continue.</p>`;
 
         var english9 = `
-        <p>The following is a practice round of just 3 turns.<p>
+        <p>The following is a practice round of 10 turns.<p>
         <p>The points you get here won’t change your final score, and the best deck will change between the practice round and when the real game starts.</p>
         Please press the zero (0) key to start the practice round.`;
 
